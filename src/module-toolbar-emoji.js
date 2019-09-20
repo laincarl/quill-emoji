@@ -67,12 +67,21 @@ function fn_showEmojiPalatte(quill) {
 
   quill.container.appendChild(ele_emoji_area);
   let paletteMaxPos = atSignBounds.left + 250;//palette max width is 250
+  let paletteMaxTopPos = atSignBounds.top + 250;//palette max width is 250
   ele_emoji_area.id = 'emoji-palette';
-  ele_emoji_area.style.top = 10 + atSignBounds.top + atSignBounds.height + "px";
-  if (paletteMaxPos > quill.container.offsetWidth) {
-    ele_emoji_area.style.left = (atSignBounds.left - 250)+ "px";
+
+  // ele_emoji_area.style.top = 10 + atSignBounds.top + atSignBounds.height + "px";
+  
+  if (paletteMaxTopPos > quill.container.offsetHeight) {
+    ele_emoji_area.style.top = (atSignBounds.top - 250) + "px";
   }
-  else{
+  else {
+    ele_emoji_area.style.top = atSignBounds.top + "px";
+  }
+  if (paletteMaxPos > quill.container.offsetWidth) {
+    ele_emoji_area.style.left = (atSignBounds.left - 250) + "px";
+  }
+  else {
     ele_emoji_area.style.left = atSignBounds.left + "px";
   }
 
