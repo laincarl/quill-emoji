@@ -7,5223 +7,5225 @@
 */
 
 .ap {
+  --emoji-size: 20px;
   display: inline-flex;
-  height: 20px;
-  width: 20px;
+  height: 1em;
+  width: 1em;
   background-image: url('../../sheet_apple_64.png');
-  background-size: 820px;
+  background-size: 41em;
   background-repeat: no-repeat;
   text-indent: -999px;
   // padding-left: 20px;
   box-sizing: border-box;
   // For emoji fallback
-  font-size: 20px;
+  font-size: var(--emoji-size);
   line-height: 1;
   overflow: hidden;
   margin-top: -3px;
 }
 
-#emoji-palette {
+#emoji-palette,
+#textarea-emoji {
   .ap {
     margin: 3px;
   }
 }
 
 .ap-copyright {
-  background-position: -0px -0px;
+  background-position: 0em 0em;
 }
 
 .ap-registered {
-  background-position: -0px -20px;
+  background-position: 0em -1em;
 }
 
 .ap-bangbang {
-  background-position: -0px -40px;
+  background-position: 0em -2em;
 }
 
 .ap-interrobang {
-  background-position: -0px -60px;
+  background-position: 0em -3em;
 }
 
 .ap-tm {
-  background-position: -0px -80px;
+  background-position: 0em -4em;
 }
 
 .ap-information_source {
-  background-position: -0px -100px;
+  background-position: 0em -5em;
 }
 
 .ap-left_right_arrow {
-  background-position: -0px -120px;
+  background-position: 0em -6em;
 }
 
 .ap-arrow_up_down {
-  background-position: -0px -140px;
+  background-position: 0em -7em;
 }
 
 .ap-arrow_upper_left {
-  background-position: -0px -160px;
+  background-position: 0em -8em;
 }
 
 .ap-arrow_upper_right {
-  background-position: -0px -180px;
+  background-position: 0em -9em;
 }
 
 .ap-arrow_lower_right {
-  background-position: -0px -200px;
+  background-position: 0em -10em;
 }
 
 .ap-arrow_lower_left {
-  background-position: -0px -220px;
+  background-position: 0em -11em;
 }
 
 .ap-leftwards_arrow_with_hook {
-  background-position: -0px -240px;
+  background-position: 0em -12em;
 }
 
 .ap-arrow_right_hook {
-  background-position: -0px -260px;
+  background-position: 0em -13em;
 }
 
 .ap-watch {
-  background-position: -0px -280px;
+  background-position: 0em -14em;
 }
 
 .ap-hourglass {
-  background-position: -0px -300px;
+  background-position: 0em -15em;
 }
 
 .ap-keyboard {
-  background-position: -0px -320px;
+  background-position: 0em -16em;
 }
 
 .ap-fast_forward {
-  background-position: -0px -360px;
+  background-position: 0em -18em;
 }
 
 .ap-rewind {
-  background-position: -0px -380px;
+  background-position: 0em -19em;
 }
 
 .ap-arrow_double_up {
-  background-position: -0px -400px;
+  background-position: 0em -20em;
 }
 
 .ap-arrow_double_down {
-  background-position: -0px -420px;
+  background-position: 0em -21em;
 }
 
 .ap-black_right_pointing_double_triangle_with_vertical_bar {
-  background-position: -0px -440px;
+  background-position: 0em -22em;
 }
 
 .ap-black_left_pointing_double_triangle_with_vertical_bar {
-  background-position: -0px -460px;
+  background-position: 0em -23em;
 }
 
 .ap-black_right_pointing_triangle_with_double_vertical_bar {
-  background-position: -0px -480px;
+  background-position: 0em -24em;
 }
 
 .ap-alarm_clock {
-  background-position: -0px -500px;
+  background-position: 0em -25em;
 }
 
 .ap-stopwatch {
-  background-position: -0px -520px;
+  background-position: 0em -26em;
 }
 
 .ap-timer_clock {
-  background-position: -0px -540px;
+  background-position: 0em -27em;
 }
 
 .ap-hourglass_flowing_sand {
-  background-position: -0px -560px;
+  background-position: 0em -28em;
 }
 
 .ap-double_vertical_bar {
-  background-position: -0px -580px;
+  background-position: 0em -29em;
 }
 
 .ap-black_square_for_stop {
-  background-position: -0px -600px;
+  background-position: 0em -30em;
 }
 
 .ap-black_circle_for_record {
-  background-position: -0px -620px;
+  background-position: 0em -31em;
 }
 
 .ap-m {
-  background-position: -0px -640px;
+  background-position: 0em -32em;
 }
 
 .ap-black_small_square {
-  background-position: -0px -660px;
+  background-position: 0em -33em;
 }
 
 .ap-white_small_square {
-  background-position: -0px -680px;
+  background-position: 0em -34em;
 }
 
 .ap-arrow_forward {
-  background-position: -0px -700px;
+  background-position: 0em -35em;
 }
 
 .ap-arrow_backward {
-  background-position: -0px -720px;
+  background-position: 0em -36em;
 }
 
 .ap-white_medium_square {
-  background-position: -0px -740px;
+  background-position: 0em -37em;
 }
 
 .ap-black_medium_square {
-  background-position: -0px -760px;
+  background-position: 0em -38em;
 }
 
 .ap-white_medium_small_square {
-  background-position: -0px -780px;
+  background-position: 0em -39em;
 }
 
 .ap-black_medium_small_square {
-  background-position: -0px -800px;
+  background-position: 0em -40em;
 }
 
 .ap-sunny {
-  background-position: -20px -0px;
+  background-position: -1em 0em;
 }
 
 .ap-cloud {
-  background-position: -20px -20px;
+  background-position: -1em -1em;
 }
 
 .ap-umbrella {
-  background-position: -20px -40px;
+  background-position: -1em -2em;
 }
 
 .ap-snowman {
-  background-position: -20px -60px;
+  background-position: -1em -3em;
 }
 
 .ap-comet {
-  background-position: -20px -80px;
+  background-position: -1em -4em;
 }
 
 .ap-phone,
 .ap-telephone {
-  background-position: -20px -100px;
+  background-position: -1em -5em;
 }
 
 .ap-ballot_box_with_check {
-  background-position: -20px -120px;
+  background-position: -1em -6em;
 }
 
 .ap-umbrella_with_rain_drops {
-  background-position: -20px -140px;
+  background-position: -1em -7em;
 }
 
 .ap-coffee {
-  background-position: -20px -160px;
+  background-position: -1em -8em;
 }
 
 .ap-shamrock {
-  background-position: -20px -180px;
+  background-position: -1em -9em;
 }
 
 .ap-point_up {
-  background-position: -20px -200px;
+  background-position: -1em -10em;
 }
 
 .ap-skull_and_crossbones {
-  background-position: -20px -320px;
+  background-position: -1em -16em;
 }
 
 .ap-radioactive_sign {
-  background-position: -20px -340px;
+  background-position: -1em -17em;
 }
 
 .ap-biohazard_sign {
-  background-position: -20px -360px;
+  background-position: -1em -18em;
 }
 
 .ap-orthodox_cross {
-  background-position: -20px -380px;
+  background-position: -1em -19em;
 }
 
 .ap-star_and_crescent {
-  background-position: -20px -400px;
+  background-position: -1em -20em;
 }
 
 .ap-peace_symbol {
-  background-position: -20px -420px;
+  background-position: -1em -21em;
 }
 
 .ap-yin_yang {
-  background-position: -20px -440px;
+  background-position: -1em -22em;
 }
 
 .ap-wheel_of_dharma {
-  background-position: -20px -460px;
+  background-position: -1em -23em;
 }
 
 .ap-white_frowning_face {
-  background-position: -20px -480px;
+  background-position: -1em -24em;
 }
 
 .ap-relaxed {
-  background-position: -20px -500px;
+  background-position: -1em -25em;
 }
 
 .ap-aries {
-  background-position: -20px -520px;
+  background-position: -1em -26em;
 }
 
 .ap-taurus {
-  background-position: -20px -540px;
+  background-position: -1em -27em;
 }
 
 .ap-gemini {
-  background-position: -20px -560px;
+  background-position: -1em -28em;
 }
 
 .ap-cancer {
-  background-position: -20px -580px;
+  background-position: -1em -29em;
 }
 
 .ap-leo {
-  background-position: -20px -600px;
+  background-position: -1em -30em;
 }
 
 .ap-virgo {
-  background-position: -20px -620px;
+  background-position: -1em -31em;
 }
 
 .ap-libra {
-  background-position: -20px -640px;
+  background-position: -1em -32em;
 }
 
 .ap-scorpius {
-  background-position: -20px -660px;
+  background-position: -1em -33em;
 }
 
 .ap-sagittarius {
-  background-position: -20px -680px;
+  background-position: -1em -34em;
 }
 
 .ap-capricorn {
-  background-position: -20px -700px;
+  background-position: -1em -35em;
 }
 
 .ap-aquarius {
-  background-position: -20px -720px;
+  background-position: -1em -36em;
 }
 
 .ap-pisces {
-  background-position: -20px -740px;
+  background-position: -1em -37em;
 }
 
 .ap-spades {
-  background-position: -20px -760px;
+  background-position: -1em -38em;
 }
 
 .ap-clubs {
-  background-position: -20px -780px;
+  background-position: -1em -39em;
 }
 
 .ap-hearts {
-  background-position: -20px -800px;
+  background-position: -1em -40em;
 }
 
 .ap-diamonds {
-  background-position: -40px -0px;
+  background-position: -2em 0em;
 }
 
 .ap-hotsprings {
-  background-position: -40px -20px;
+  background-position: -2em -1em;
 }
 
 .ap-recycle {
-  background-position: -40px -40px;
+  background-position: -2em -2em;
 }
 
 .ap-wheelchair {
-  background-position: -40px -60px;
+  background-position: -2em -3em;
 }
 
 .ap-hammer_and_pick {
-  background-position: -40px -80px;
+  background-position: -2em -4em;
 }
 
 .ap-anchor {
-  background-position: -40px -100px;
+  background-position: -2em -5em;
 }
 
 .ap-crossed_swords {
-  background-position: -40px -120px;
+  background-position: -2em -6em;
 }
 
 .ap-scales {
-  background-position: -40px -140px;
+  background-position: -2em -7em;
 }
 
 .ap-alembic {
-  background-position: -40px -160px;
+  background-position: -2em -8em;
 }
 
 .ap-gear {
-  background-position: -40px -180px;
+  background-position: -2em -9em;
 }
 
 .ap-atom_symbol {
-  background-position: -40px -200px;
+  background-position: -2em -10em;
 }
 
 .ap-fleur_de_lis {
-  background-position: -40px -220px;
+  background-position: -2em -11em;
 }
 
 .ap-warning {
-  background-position: -40px -240px;
+  background-position: -2em -12em;
 }
 
 .ap-zap {
-  background-position: -40px -260px;
+  background-position: -2em -13em;
 }
 
 .ap-white_circle {
-  background-position: -40px -280px;
+  background-position: -2em -14em;
 }
 
 .ap-black_circle {
-  background-position: -40px -300px;
+  background-position: -2em -15em;
 }
 
 .ap-coffin {
-  background-position: -40px -320px;
+  background-position: -2em -16em;
 }
 
 .ap-funeral_urn {
-  background-position: -40px -340px;
+  background-position: -2em -17em;
 }
 
 .ap-soccer {
-  background-position: -40px -360px;
+  background-position: -2em -18em;
 }
 
 .ap-baseball {
-  background-position: -40px -380px;
+  background-position: -2em -19em;
 }
 
 .ap-snowman_without_snow {
-  background-position: -40px -400px;
+  background-position: -2em -20em;
 }
 
 .ap-partly_sunny {
-  background-position: -40px -420px;
+  background-position: -2em -21em;
 }
 
 .ap-thunder_cloud_and_rain {
-  background-position: -40px -440px;
+  background-position: -2em -22em;
 }
 
 .ap-ophiuchus {
-  background-position: -40px -460px;
+  background-position: -2em -23em;
 }
 
 .ap-pick {
-  background-position: -40px -480px;
+  background-position: -2em -24em;
 }
 
 .ap-helmet_with_white_cross {
-  background-position: -40px -500px;
+  background-position: -2em -25em;
 }
 
 .ap-chains {
-  background-position: -40px -520px;
+  background-position: -2em -26em;
 }
 
 .ap-no_entry {
-  background-position: -40px -540px;
+  background-position: -2em -27em;
 }
 
 .ap-shinto_shrine {
-  background-position: -40px -560px;
+  background-position: -2em -28em;
 }
 
 .ap-church {
-  background-position: -40px -580px;
+  background-position: -2em -29em;
 }
 
 .ap-mountain {
-  background-position: -40px -600px;
+  background-position: -2em -30em;
 }
 
 .ap-umbrella_on_ground,
 .ap-beach_umbrella {
-  background-position: -40px -620px;
+  background-position: -2em -31em;
 }
 
 .ap-fountain {
-  background-position: -40px -640px;
+  background-position: -2em -32em;
 }
 
 .ap-golf {
-  background-position: -40px -660px;
+  background-position: -2em -33em;
 }
 
 .ap-ferry {
-  background-position: -40px -680px;
+  background-position: -2em -34em;
 }
 
 .ap-boat {
-  background-position: -40px -700px;
+  background-position: -2em -35em;
 }
 
 .ap-skier {
-  background-position: -40px -720px;
+  background-position: -2em -36em;
 }
 
 .ap-ice_skate {
-  background-position: -40px -740px;
+  background-position: -2em -37em;
 }
 
 .ap-person_with_ball {
-  background-position: -40px -760px;
+  background-position: -2em -38em;
 }
 
 .ap-tent {
-  background-position: -60px -60px;
+  background-position: -3em -3em;
 }
 
 .ap-fuelpump {
-  background-position: -60px -80px;
+  background-position: -3em -4em;
 }
 
 .ap-scissors {
-  background-position: -60px -100px;
+  background-position: -3em -5em;
 }
 
 .ap-white_check_mark {
-  background-position: -60px -120px;
+  background-position: -3em -6em;
 }
 
 .ap-airplane {
-  background-position: -60px -140px;
+  background-position: -3em -7em;
 }
 
 .ap-email {
-  background-position: -60px -160px;
+  background-position: -3em -8em;
 }
 
 .ap-fist {
-  background-position: -60px -180px;
+  background-position: -3em -9em;
 }
 
 .ap-hand {
-  background-position: -60px -300px;
+  background-position: -3em -15em;
 }
 
 .ap-v {
-  background-position: -60px -420px;
+  background-position: -3em -21em;
 }
 
 .ap-writing_hand {
-  background-position: -60px -540px;
+  background-position: -3em -27em;
 }
 
 .ap-pencil2 {
-  background-position: -60px -660px;
+  background-position: -3em -33em;
 }
 
 .ap-black_nib {
-  background-position: -60px -680px;
+  background-position: -3em -34em;
 }
 
 .ap-heavy_check_mark {
-  background-position: -60px -700px;
+  background-position: -3em -35em;
 }
 
 .ap-heavy_multiplication_x {
-  background-position: -60px -720px;
+  background-position: -3em -36em;
 }
 
 .ap-latin_cross {
-  background-position: -60px -740px;
+  background-position: -3em -37em;
 }
 
 .ap-star_of_david {
-  background-position: -60px -760px;
+  background-position: -3em -38em;
 }
 
 .ap-sparkles {
-  background-position: -60px -780px;
+  background-position: -3em -39em;
 }
 
 .ap-eight_spoked_asterisk {
-  background-position: -60px -800px;
+  background-position: -3em -40em;
 }
 
 .ap-eight_pointed_black_star {
-  background-position: -80px -0px;
+  background-position: -4em 0em;
 }
 
 .ap-snowflake {
-  background-position: -80px -20px;
+  background-position: -4em -1em;
 }
 
 .ap-sparkle {
-  background-position: -80px -40px;
+  background-position: -4em -2em;
 }
 
 .ap-x {
-  background-position: -80px -60px;
+  background-position: -4em -3em;
 }
 
 .ap-negative_squared_cross_mark {
-  background-position: -80px -80px;
+  background-position: -4em -4em;
 }
 
 .ap-question {
-  background-position: -80px -100px;
+  background-position: -4em -5em;
 }
 
 .ap-grey_question {
-  background-position: -80px -120px;
+  background-position: -4em -6em;
 }
 
 .ap-grey_exclamation {
-  background-position: -80px -140px;
+  background-position: -4em -7em;
 }
 
 .ap-exclamation {
-  background-position: -80px -160px;
+  background-position: -4em -8em;
 }
 
 .ap-heavy_heart_exclamation_mark_ornament {
-  background-position: -80px -180px;
+  background-position: -4em -9em;
 }
 
 .ap-heart {
-  background-position: -80px -200px;
+  background-position: -4em -10em;
 }
 
 .ap-heavy_plus_sign {
-  background-position: -80px -220px;
+  background-position: -4em -11em;
 }
 
 .ap-heavy_minus_sign {
-  background-position: -80px -240px;
+  background-position: -4em -12em;
 }
 
 .ap-heavy_division_sign {
-  background-position: -80px -260px;
+  background-position: -4em -13em;
 }
 
 .ap-arrow_right {
-  background-position: -80px -280px;
+  background-position: -4em -14em;
 }
 
 .ap-curly_loop {
-  background-position: -80px -300px;
+  background-position: -4em -15em;
 }
 
 .ap-loop {
-  background-position: -80px -320px;
+  background-position: -4em -16em;
 }
 
 .ap-arrow_heading_up {
-  background-position: -80px -340px;
+  background-position: -4em -17em;
 }
 
 .ap-arrow_heading_down {
-  background-position: -80px -360px;
+  background-position: -4em -18em;
 }
 
 .ap-arrow_left {
-  background-position: -80px -380px;
+  background-position: -4em -19em;
 }
 
 .ap-arrow_up {
-  background-position: -80px -400px;
+  background-position: -4em -20em;
 }
 
 .ap-arrow_down {
-  background-position: -80px -420px;
+  background-position: -4em -21em;
 }
 
 .ap-black_large_square {
-  background-position: -80px -440px;
+  background-position: -4em -22em;
 }
 
 .ap-white_large_square {
-  background-position: -80px -460px;
+  background-position: -4em -23em;
 }
 
 .ap-star {
-  background-position: -80px -480px;
+  background-position: -4em -24em;
 }
 
 .ap-o {
-  background-position: -80px -500px;
+  background-position: -4em -25em;
 }
 
 .ap-wavy_dash {
-  background-position: -80px -520px;
+  background-position: -4em -26em;
 }
 
 .ap-part_alternation_mark {
-  background-position: -80px -540px;
+  background-position: -4em -27em;
 }
 
 .ap-congratulations {
-  background-position: -80px -560px;
+  background-position: -4em -28em;
 }
 
 .ap-secret {
-  background-position: -80px -580px;
+  background-position: -4em -29em;
 }
 
 .ap-mahjong {
-  background-position: -80px -600px;
+  background-position: -4em -30em;
 }
 
 .ap-black_joker {
-  background-position: -80px -620px;
+  background-position: -4em -31em;
 }
 
 .ap-a {
-  background-position: -80px -640px;
+  background-position: -4em -32em;
 }
 
 .ap-b {
-  background-position: -80px -660px;
+  background-position: -4em -33em;
 }
 
 .ap-o2 {
-  background-position: -80px -680px;
+  background-position: -4em -34em;
 }
 
 .ap-parking {
-  background-position: -80px -700px;
+  background-position: -4em -35em;
 }
 
 .ap-ab {
-  background-position: -80px -720px;
+  background-position: -4em -36em;
 }
 
 .ap-cl {
-  background-position: -80px -740px;
+  background-position: -4em -37em;
 }
 
 .ap-cool {
-  background-position: -80px -760px;
+  background-position: -4em -38em;
 }
 
 .ap-free {
-  background-position: -80px -780px;
+  background-position: -4em -39em;
 }
 
 .ap-id {
-  background-position: -80px -800px;
+  background-position: -4em -40em;
 }
 
 .ap-new {
-  background-position: -100px -0px;
+  background-position: -5em 0em;
 }
 
 .ap-ng {
-  background-position: -100px -20px;
+  background-position: -5em -1em;
 }
 
 .ap-ok {
-  background-position: -100px -40px;
+  background-position: -5em -2em;
 }
 
 .ap-sos {
-  background-position: -100px -60px;
+  background-position: -5em -3em;
 }
 
 .ap-up {
-  background-position: -100px -80px;
+  background-position: -5em -4em;
 }
 
 .ap-vs {
-  background-position: -100px -100px;
+  background-position: -5em -5em;
 }
 
 .ap-koko {
-  background-position: -100px -120px;
+  background-position: -5em -6em;
 }
 
 .ap-sa {
-  background-position: -100px -140px;
+  background-position: -5em -7em;
 }
 
 .ap-u7121 {
-  background-position: -100px -160px;
+  background-position: -5em -8em;
 }
 
 .ap-u6307 {
-  background-position: -100px -180px;
+  background-position: -5em -9em;
 }
 
 .ap-u7981 {
-  background-position: -100px -200px;
+  background-position: -5em -10em;
 }
 
 .ap-u7a7a {
-  background-position: -100px -220px;
+  background-position: -5em -11em;
 }
 
 .ap-u5408 {
-  background-position: -100px -240px;
+  background-position: -5em -12em;
 }
 
 .ap-u6e80 {
-  background-position: -100px -260px;
+  background-position: -5em -13em;
 }
 
 .ap-u6709 {
-  background-position: -100px -280px;
+  background-position: -5em -14em;
 }
 
 .ap-u6708 {
-  background-position: -100px -300px;
+  background-position: -5em -15em;
 }
 
 .ap-u7533 {
-  background-position: -100px -320px;
+  background-position: -5em -16em;
 }
 
 .ap-u5272 {
-  background-position: -100px -340px;
+  background-position: -5em -17em;
 }
 
 .ap-u55b6 {
-  background-position: -100px -360px;
+  background-position: -5em -18em;
 }
 
 .ap-ideograph_advantage {
-  background-position: -100px -380px;
+  background-position: -5em -19em;
 }
 
 .ap-accept {
-  background-position: -100px -400px;
+  background-position: -5em -20em;
 }
 
 .ap-cyclone {
-  background-position: -100px -420px;
+  background-position: -5em -21em;
 }
 
 .ap-foggy {
-  background-position: -100px -440px;
+  background-position: -5em -22em;
 }
 
 .ap-closed_umbrella {
-  background-position: -100px -460px;
+  background-position: -5em -23em;
 }
 
 .ap-night_with_stars {
-  background-position: -100px -480px;
+  background-position: -5em -24em;
 }
 
 .ap-sunrise_over_mountains {
-  background-position: -100px -500px;
+  background-position: -5em -25em;
 }
 
 .ap-sunrise {
-  background-position: -100px -520px;
+  background-position: -5em -26em;
 }
 
 .ap-city_sunset {
-  background-position: -100px -540px;
+  background-position: -5em -27em;
 }
 
 .ap-city_sunrise {
-  background-position: -100px -560px;
+  background-position: -5em -28em;
 }
 
 .ap-rainbow {
-  background-position: -100px -580px;
+  background-position: -5em -29em;
 }
 
 .ap-bridge_at_night {
-  background-position: -100px -600px;
+  background-position: -5em -30em;
 }
 
 .ap-ocean {
-  background-position: -100px -620px;
+  background-position: -5em -31em;
 }
 
 .ap-volcano {
-  background-position: -100px -640px;
+  background-position: -5em -32em;
 }
 
 .ap-milky_way {
-  background-position: -100px -660px;
+  background-position: -5em -33em;
 }
 
 .ap-earth_africa {
-  background-position: -100px -680px;
+  background-position: -5em -34em;
 }
 
 .ap-earth_americas {
-  background-position: -100px -700px;
+  background-position: -5em -35em;
 }
 
 .ap-earth_asia {
-  background-position: -100px -720px;
+  background-position: -5em -36em;
 }
 
 .ap-globe_with_meridians {
-  background-position: -100px -740px;
+  background-position: -5em -37em;
 }
 
 .ap-new_moon {
-  background-position: -100px -760px;
+  background-position: -5em -38em;
 }
 
 .ap-waxing_crescent_moon {
-  background-position: -100px -780px;
+  background-position: -5em -39em;
 }
 
 .ap-first_quarter_moon {
-  background-position: -100px -800px;
+  background-position: -5em -40em;
 }
 
 .ap-moon {
-  background-position: -120px -0px;
+  background-position: -6em 0em;
 }
 
 .ap-full_moon {
-  background-position: -120px -20px;
+  background-position: -6em -1em;
 }
 
 .ap-waning_gibbous_moon {
-  background-position: -120px -40px;
+  background-position: -6em -2em;
 }
 
 .ap-last_quarter_moon {
-  background-position: -120px -60px;
+  background-position: -6em -3em;
 }
 
 .ap-waning_crescent_moon {
-  background-position: -120px -80px;
+  background-position: -6em -4em;
 }
 
 .ap-crescent_moon {
-  background-position: -120px -100px;
+  background-position: -6em -5em;
 }
 
 .ap-new_moon_with_face {
-  background-position: -120px -120px;
+  background-position: -6em -6em;
 }
 
 .ap-first_quarter_moon_with_face {
-  background-position: -120px -140px;
+  background-position: -6em -7em;
 }
 
 .ap-last_quarter_moon_with_face {
-  background-position: -120px -160px;
+  background-position: -6em -8em;
 }
 
 .ap-full_moon_with_face {
-  background-position: -120px -180px;
+  background-position: -6em -9em;
 }
 
 .ap-sun_with_face {
-  background-position: -120px -200px;
+  background-position: -6em -10em;
 }
 
 .ap-star2 {
-  background-position: -120px -220px;
+  background-position: -6em -11em;
 }
 
 .ap-stars {
-  background-position: -120px -240px;
+  background-position: -6em -12em;
 }
 
 .ap-thermometer {
-  background-position: -120px -260px;
+  background-position: -6em -13em;
 }
 
 .ap-mostly_sunny {
-  background-position: -120px -280px;
+  background-position: -6em -14em;
 }
 
 .ap-barely_sunny {
-  background-position: -120px -300px;
+  background-position: -6em -15em;
 }
 
 .ap-partly_sunny_rain {
-  background-position: -120px -320px;
+  background-position: -6em -16em;
 }
 
 .ap-rain_cloud {
-  background-position: -120px -340px;
+  background-position: -6em -17em;
 }
 
 .ap-snow_cloud {
-  background-position: -120px -360px;
+  background-position: -6em -18em;
 }
 
 .ap-lightning {
-  background-position: -120px -380px;
+  background-position: -6em -19em;
 }
 
 .ap-tornado {
-  background-position: -120px -400px;
+  background-position: -6em -20em;
 }
 
 .ap-fog {
-  background-position: -120px -420px;
+  background-position: -6em -21em;
 }
 
 .ap-wind_blowing_face {
-  background-position: -120px -440px;
+  background-position: -6em -22em;
 }
 
 .ap-hotdog {
-  background-position: -120px -460px;
+  background-position: -6em -23em;
 }
 
 .ap-taco {
-  background-position: -120px -480px;
+  background-position: -6em -24em;
 }
 
 .ap-burrito {
-  background-position: -120px -500px;
+  background-position: -6em -25em;
 }
 
 .ap-chestnut {
-  background-position: -120px -520px;
+  background-position: -6em -26em;
 }
 
 .ap-seedling {
-  background-position: -120px -540px;
+  background-position: -6em -27em;
 }
 
 .ap-evergreen_tree {
-  background-position: -120px -560px;
+  background-position: -6em -28em;
 }
 
 .ap-deciduous_tree {
-  background-position: -120px -580px;
+  background-position: -6em -29em;
 }
 
 .ap-palm_tree {
-  background-position: -120px -600px;
+  background-position: -6em -30em;
 }
 
 .ap-cactus {
-  background-position: -120px -620px;
+  background-position: -6em -31em;
 }
 
 .ap-hot_pepper {
-  background-position: -120px -640px;
+  background-position: -6em -32em;
 }
 
 .ap-tulip {
-  background-position: -120px -660px;
+  background-position: -6em -33em;
 }
 
 .ap-cherry_blossom {
-  background-position: -120px -680px;
+  background-position: -6em -34em;
 }
 
 .ap-rose {
-  background-position: -120px -700px;
+  background-position: -6em -35em;
 }
 
 .ap-hibiscus {
-  background-position: -120px -720px;
+  background-position: -6em -36em;
 }
 
 .ap-sunflower {
-  background-position: -120px -740px;
+  background-position: -6em -37em;
 }
 
 .ap-blossom {
-  background-position: -120px -760px;
+  background-position: -6em -38em;
 }
 
 .ap-corn {
-  background-position: -120px -780px;
+  background-position: -6em -39em;
 }
 
 .ap-ear_of_rice {
-  background-position: -120px -800px;
+  background-position: -6em -40em;
 }
 
 .ap-herb {
-  background-position: -140px -0px;
+  background-position: -7em 0em;
 }
 
 .ap-four_leaf_clover {
-  background-position: -140px -20px;
+  background-position: -7em -1em;
 }
 
 .ap-maple_leaf {
-  background-position: -140px -40px;
+  background-position: -7em -2em;
 }
 
 .ap-fallen_leaf {
-  background-position: -140px -60px;
+  background-position: -7em -3em;
 }
 
 .ap-leaves {
-  background-position: -140px -80px;
+  background-position: -7em -4em;
 }
 
 .ap-mushroom {
-  background-position: -140px -100px;
+  background-position: -7em -5em;
 }
 
 .ap-tomato {
-  background-position: -140px -120px;
+  background-position: -7em -6em;
 }
 
 .ap-eggplant {
-  background-position: -140px -140px;
+  background-position: -7em -7em;
 }
 
 .ap-grapes {
-  background-position: -140px -160px;
+  background-position: -7em -8em;
 }
 
 .ap-melon {
-  background-position: -140px -180px;
+  background-position: -7em -9em;
 }
 
 .ap-watermelon {
-  background-position: -140px -200px;
+  background-position: -7em -10em;
 }
 
 .ap-tangerine {
-  background-position: -140px -220px;
+  background-position: -7em -11em;
 }
 
 .ap-lemon {
-  background-position: -140px -240px;
+  background-position: -7em -12em;
 }
 
 .ap-banana {
-  background-position: -140px -260px;
+  background-position: -7em -13em;
 }
 
 .ap-pineapple {
-  background-position: -140px -280px;
+  background-position: -7em -14em;
 }
 
 .ap-apple {
-  background-position: -140px -300px;
+  background-position: -7em -15em;
 }
 
 .ap-green_apple {
-  background-position: -140px -320px;
+  background-position: -7em -16em;
 }
 
 .ap-pear {
-  background-position: -140px -340px;
+  background-position: -7em -17em;
 }
 
 .ap-peach {
-  background-position: -140px -360px;
+  background-position: -7em -18em;
 }
 
 .ap-cherries {
-  background-position: -140px -380px;
+  background-position: -7em -19em;
 }
 
 .ap-strawberry {
-  background-position: -140px -400px;
+  background-position: -7em -20em;
 }
 
 .ap-hamburger {
-  background-position: -140px -420px;
+  background-position: -7em -21em;
 }
 
 .ap-pizza {
-  background-position: -140px -440px;
+  background-position: -7em -22em;
 }
 
 .ap-meat_on_bone {
-  background-position: -140px -460px;
+  background-position: -7em -23em;
 }
 
 .ap-poultry_leg {
-  background-position: -140px -480px;
+  background-position: -7em -24em;
 }
 
 .ap-rice_cracker {
-  background-position: -140px -500px;
+  background-position: -7em -25em;
 }
 
 .ap-rice_ball {
-  background-position: -140px -520px;
+  background-position: -7em -26em;
 }
 
 .ap-rice {
-  background-position: -140px -540px;
+  background-position: -7em -27em;
 }
 
 .ap-curry {
-  background-position: -140px -560px;
+  background-position: -7em -28em;
 }
 
 .ap-ramen {
-  background-position: -140px -580px;
+  background-position: -7em -29em;
 }
 
 .ap-spaghetti {
-  background-position: -140px -600px;
+  background-position: -7em -30em;
 }
 
 .ap-bread {
-  background-position: -140px -620px;
+  background-position: -7em -31em;
 }
 
 .ap-fries {
-  background-position: -140px -640px;
+  background-position: -7em -32em;
 }
 
 .ap-sweet_potato {
-  background-position: -140px -660px;
+  background-position: -7em -33em;
 }
 
 .ap-dango {
-  background-position: -140px -680px;
+  background-position: -7em -34em;
 }
 
 .ap-oden {
-  background-position: -140px -700px;
+  background-position: -7em -35em;
 }
 
 .ap-sushi {
-  background-position: -140px -720px;
+  background-position: -7em -36em;
 }
 
 .ap-fried_shrimp {
-  background-position: -140px -740px;
+  background-position: -7em -37em;
 }
 
 .ap-fish_cake {
-  background-position: -140px -760px;
+  background-position: -7em -38em;
 }
 
 .ap-icecream {
-  background-position: -140px -780px;
+  background-position: -7em -39em;
 }
 
 .ap-shaved_ice {
-  background-position: -140px -800px;
+  background-position: -7em -40em;
 }
 
 .ap-ice_cream {
-  background-position: -160px -0px;
+  background-position: -8em 0em;
 }
 
 .ap-doughnut {
-  background-position: -160px -20px;
+  background-position: -8em -1em;
 }
 
 .ap-cookie {
-  background-position: -160px -40px;
+  background-position: -8em -2em;
 }
 
 .ap-chocolate_bar {
-  background-position: -160px -60px;
+  background-position: -8em -3em;
 }
 
 .ap-candy {
-  background-position: -160px -80px;
+  background-position: -8em -4em;
 }
 
 .ap-lollipop {
-  background-position: -160px -100px;
+  background-position: -8em -5em;
 }
 
 .ap-custard {
-  background-position: -160px -120px;
+  background-position: -8em -6em;
 }
 
 .ap-honey_pot {
-  background-position: -160px -140px;
+  background-position: -8em -7em;
 }
 
 .ap-cake {
-  background-position: -160px -160px;
+  background-position: -8em -8em;
 }
 
 .ap-bento {
-  background-position: -160px -180px;
+  background-position: -8em -9em;
 }
 
 .ap-stew {
-  background-position: -160px -200px;
+  background-position: -8em -10em;
 }
 
 .ap-egg {
-  background-position: -160px -220px;
+  background-position: -8em -11em;
 }
 
 .ap-fork_and_knife {
-  background-position: -160px -240px;
+  background-position: -8em -12em;
 }
 
 .ap-tea {
-  background-position: -160px -260px;
+  background-position: -8em -13em;
 }
 
 .ap-sake {
-  background-position: -160px -280px;
+  background-position: -8em -14em;
 }
 
 .ap-wine_glass {
-  background-position: -160px -300px;
+  background-position: -8em -15em;
 }
 
 .ap-cocktail {
-  background-position: -160px -320px;
+  background-position: -8em -16em;
 }
 
 .ap-tropical_drink {
-  background-position: -160px -340px;
+  background-position: -8em -17em;
 }
 
 .ap-beer {
-  background-position: -160px -360px;
+  background-position: -8em -18em;
 }
 
 .ap-beers {
-  background-position: -160px -380px;
+  background-position: -8em -19em;
 }
 
 .ap-baby_bottle {
-  background-position: -160px -400px;
+  background-position: -8em -20em;
 }
 
 .ap-knife_fork_plate {
-  background-position: -160px -420px;
+  background-position: -8em -21em;
 }
 
 .ap-champagne {
-  background-position: -160px -440px;
+  background-position: -8em -22em;
 }
 
 .ap-popcorn {
-  background-position: -160px -460px;
+  background-position: -8em -23em;
 }
 
 .ap-ribbon {
-  background-position: -160px -480px;
+  background-position: -8em -24em;
 }
 
 .ap-gift {
-  background-position: -160px -500px;
+  background-position: -8em -25em;
 }
 
 .ap-birthday {
-  background-position: -160px -520px;
+  background-position: -8em -26em;
 }
 
 .ap-jack_o_lantern {
-  background-position: -160px -540px;
+  background-position: -8em -27em;
 }
 
 .ap-christmas_tree {
-  background-position: -160px -560px;
+  background-position: -8em -28em;
 }
 
 .ap-santa {
-  background-position: -160px -580px;
+  background-position: -8em -29em;
 }
 
 .ap-fireworks {
-  background-position: -160px -700px;
+  background-position: -8em -35em;
 }
 
 .ap-sparkler {
-  background-position: -160px -720px;
+  background-position: -8em -36em;
 }
 
 .ap-balloon {
-  background-position: -160px -740px;
+  background-position: -8em -37em;
 }
 
 .ap-tada {
-  background-position: -160px -760px;
+  background-position: -8em -38em;
 }
 
 .ap-confetti_ball {
-  background-position: -160px -780px;
+  background-position: -8em -39em;
 }
 
 .ap-tanabata_tree {
-  background-position: -160px -800px;
+  background-position: -8em -40em;
 }
 
 .ap-crossed_flags {
-  background-position: -180px -0px;
+  background-position: -9em 0em;
 }
 
 .ap-bamboo {
-  background-position: -180px -20px;
+  background-position: -9em -1em;
 }
 
 .ap-dolls {
-  background-position: -180px -40px;
+  background-position: -9em -2em;
 }
 
 .ap-flags {
-  background-position: -180px -60px;
+  background-position: -9em -3em;
 }
 
 .ap-wind_chime {
-  background-position: -180px -80px;
+  background-position: -9em -4em;
 }
 
 .ap-rice_scene {
-  background-position: -180px -100px;
+  background-position: -9em -5em;
 }
 
 .ap-school_satchel {
-  background-position: -180px -120px;
+  background-position: -9em -6em;
 }
 
 .ap-mortar_board {
-  background-position: -180px -140px;
+  background-position: -9em -7em;
 }
 
 .ap-medal {
-  background-position: -180px -160px;
+  background-position: -9em -8em;
 }
 
-.ap-reminder_ribbon {
-  background-position: -180px -180px;
+.ap-eminder_ribbon {
+  background-position: -9em -9em;
 }
 
 .ap-studio_microphone {
-  background-position: -180px -200px;
+  background-position: -9em -10em;
 }
 
 .ap-level_slider {
-  background-position: -180px -220px;
+  background-position: -9em -11em;
 }
 
 .ap-control_knobs {
-  background-position: -180px -240px;
+  background-position: -9em -12em;
 }
 
 .ap-film_frames {
-  background-position: -180px -260px;
+  background-position: -9em -13em;
 }
 
 .ap-admission_tickets {
-  background-position: -180px -280px;
+  background-position: -9em -14em;
 }
 
 .ap-carousel_horse {
-  background-position: -180px -300px;
+  background-position: -9em -15em;
 }
 
 .ap-ferris_wheel {
-  background-position: -180px -320px;
+  background-position: -9em -16em;
 }
 
 .ap-roller_coaster {
-  background-position: -180px -340px;
+  background-position: -9em -17em;
 }
 
 .ap-fishing_pole_and_fish {
-  background-position: -180px -360px;
+  background-position: -9em -18em;
 }
 
 .ap-microphone {
-  background-position: -180px -380px;
+  background-position: -9em -19em;
 }
 
 .ap-movie_camera {
-  background-position: -180px -400px;
+  background-position: -9em -20em;
 }
 
 .ap-cinema {
-  background-position: -180px -420px;
+  background-position: -9em -21em;
 }
 
 .ap-headphones {
-  background-position: -180px -440px;
+  background-position: -9em -22em;
 }
 
 .ap-art {
-  background-position: -180px -460px;
+  background-position: -9em -23em;
 }
 
 .ap-tophat {
-  background-position: -180px -480px;
+  background-position: -9em -24em;
 }
 
 .ap-circus_tent {
-  background-position: -180px -500px;
+  background-position: -9em -25em;
 }
 
 .ap-ticket {
-  background-position: -180px -520px;
+  background-position: -9em -26em;
 }
 
 .ap-clapper {
-  background-position: -180px -540px;
+  background-position: -9em -27em;
 }
 
 .ap-performing_arts {
-  background-position: -180px -560px;
+  background-position: -9em -28em;
 }
 
 .ap-video_game {
-  background-position: -180px -580px;
+  background-position: -9em -29em;
 }
 
 .ap-dart {
-  background-position: -180px -600px;
+  background-position: -9em -30em;
 }
 
 .ap-slot_machine {
-  background-position: -180px -620px;
+  background-position: -9em -31em;
 }
 
 .ap-8ball {
-  background-position: -180px -640px;
+  background-position: -9em -32em;
 }
 
 .ap-game_die {
-  background-position: -180px -660px;
+  background-position: -9em -33em;
 }
 
 .ap-bowling {
-  background-position: -180px -680px;
+  background-position: -9em -34em;
 }
 
 .ap-flower_playing_cards {
-  background-position: -180px -700px;
+  background-position: -9em -35em;
 }
 
 .ap-musical_note {
-  background-position: -180px -720px;
+  background-position: -9em -36em;
 }
 
 .ap-notes {
-  background-position: -180px -740px;
+  background-position: -9em -37em;
 }
 
 .ap-saxophone {
-  background-position: -180px -760px;
+  background-position: -9em -38em;
 }
 
 .ap-guitar {
-  background-position: -180px -780px;
+  background-position: -9em -39em;
 }
 
 .ap-musical_keyboard {
-  background-position: -180px -800px;
+  background-position: -9em -40em;
 }
 
 .ap-trumpet {
-  background-position: -200px -0px;
+  background-position: -10em 0em;
 }
 
 .ap-violin {
-  background-position: -200px -20px;
+  background-position: -10em -1em;
 }
 
 .ap-musical_score {
-  background-position: -200px -40px;
+  background-position: -10em -2em;
 }
 
 .ap-running_shirt_with_sash {
-  background-position: -200px -60px;
+  background-position: -10em -3em;
 }
 
 .ap-tennis {
-  background-position: -200px -80px;
+  background-position: -10em -4em;
 }
 
 .ap-ski {
-  background-position: -200px -100px;
+  background-position: -10em -5em;
 }
 
 .ap-basketball {
-  background-position: -200px -120px;
+  background-position: -10em -6em;
 }
 
 .ap-checkered_flag {
-  background-position: -200px -140px;
+  background-position: -10em -7em;
 }
 
 .ap-snowboarder {
-  background-position: -200px -160px;
+  background-position: -10em -8em;
 }
 
 .ap-runner {
-  background-position: -200px -180px;
+  background-position: -10em -9em;
 }
 
 .ap-surfer {
-  background-position: -200px -300px;
+  background-position: -10em -15em;
 }
 
 .ap-sports_medal {
-  background-position: -200px -420px;
+  background-position: -10em -21em;
 }
 
 .ap-trophy {
-  background-position: -200px -440px;
+  background-position: -10em -22em;
 }
 
 .ap-horse_racing {
-  background-position: -200px -460px;
+  background-position: -10em -23em;
 }
 
 .ap-football {
-  background-position: -200px -480px;
+  background-position: -10em -24em;
 }
 
 .ap-rugby_football {
-  background-position: -200px -500px;
+  background-position: -10em -25em;
 }
 
 .ap-swimmer {
-  background-position: -200px -520px;
+  background-position: -10em -26em;
 }
 
 .ap-weight_lifter {
-  background-position: -200px -640px;
+  background-position: -10em -32em;
 }
 
 .ap-golfer {
-  background-position: -200px -760px;
+  background-position: -10em -38em;
 }
 
 .ap-racing_motorcycle {
-  background-position: -200px -780px;
+  background-position: -10em -39em;
 }
 
 .ap-racing_car {
-  background-position: -200px -800px;
+  background-position: -10em -40em;
 }
 
 .ap-cricket_bat_and_ball {
-  background-position: -220px -0px;
+  background-position: -11em 0em;
 }
 
 .ap-volleyball {
-  background-position: -220px -20px;
+  background-position: -11em -1em;
 }
 
 .ap-field_hockey_stick_and_ball {
-  background-position: -220px -40px;
+  background-position: -11em -2em;
 }
 
 .ap-ice_hockey_stick_and_puck {
-  background-position: -220px -60px;
+  background-position: -11em -3em;
 }
 
 .ap-table_tennis_paddle_and_ball {
-  background-position: -220px -80px;
+  background-position: -11em -4em;
 }
 
 .ap-snow_capped_mountain {
-  background-position: -220px -100px;
+  background-position: -11em -5em;
 }
 
 .ap-camping {
-  background-position: -220px -120px;
+  background-position: -11em -6em;
 }
 
 .ap-beach_with_umbrella {
-  background-position: -220px -140px;
+  background-position: -11em -7em;
 }
 
 .ap-building_construction {
-  background-position: -220px -160px;
+  background-position: -11em -8em;
 }
 
 .ap-house_buildings {
-  background-position: -220px -180px;
+  background-position: -11em -9em;
 }
 
 .ap-cityscape {
-  background-position: -220px -200px;
+  background-position: -11em -10em;
 }
 
 .ap-derelict_house_building {
-  background-position: -220px -220px;
+  background-position: -11em -11em;
 }
 
 .ap-classical_building {
-  background-position: -220px -240px;
+  background-position: -11em -12em;
 }
 
 .ap-desert {
-  background-position: -220px -260px;
+  background-position: -11em -13em;
 }
 
 .ap-desert_island {
-  background-position: -220px -280px;
+  background-position: -11em -14em;
 }
 
 .ap-national_park {
-  background-position: -220px -300px;
+  background-position: -11em -15em;
 }
 
 .ap-stadium {
-  background-position: -220px -320px;
+  background-position: -11em -16em;
 }
 
 .ap-house {
-  background-position: -220px -340px;
+  background-position: -11em -17em;
 }
 
 .ap-house_with_garden {
-  background-position: -220px -360px;
+  background-position: -11em -18em;
 }
 
 .ap-office {
-  background-position: -220px -380px;
+  background-position: -11em -19em;
 }
 
 .ap-post_office {
-  background-position: -220px -400px;
+  background-position: -11em -20em;
 }
 
 .ap-european_post_office {
-  background-position: -220px -420px;
+  background-position: -11em -21em;
 }
 
 .ap-hospital {
-  background-position: -220px -440px;
+  background-position: -11em -22em;
 }
 
 .ap-bank {
-  background-position: -220px -460px;
+  background-position: -11em -23em;
 }
 
 .ap-atm {
-  background-position: -220px -480px;
+  background-position: -11em -24em;
 }
 
 .ap-hotel {
-  background-position: -220px -500px;
+  background-position: -11em -25em;
 }
 
 .ap-love_hotel {
-  background-position: -220px -520px;
+  background-position: -11em -26em;
 }
 
 .ap-convenience_store {
-  background-position: -220px -540px;
+  background-position: -11em -27em;
 }
 
 .ap-school {
-  background-position: -220px -560px;
+  background-position: -11em -28em;
 }
 
 .ap-department_store {
-  background-position: -220px -580px;
+  background-position: -11em -29em;
 }
 
 .ap-factory {
-  background-position: -220px -600px;
+  background-position: -11em -30em;
 }
 
 .ap-izakaya_lantern {
-  background-position: -220px -620px;
+  background-position: -11em -31em;
 }
 
 .ap-japanese_castle {
-  background-position: -220px -640px;
+  background-position: -11em -32em;
 }
 
 .ap-european_castle {
-  background-position: -220px -660px;
+  background-position: -11em -33em;
 }
 
 .ap-waving_white_flag {
-  background-position: -220px -680px;
+  background-position: -11em -34em;
 }
 
 .ap-waving_black_flag {
-  background-position: -220px -700px;
+  background-position: -11em -35em;
 }
 
 .ap-rosette {
-  background-position: -220px -720px;
+  background-position: -11em -36em;
 }
 
 .ap-label {
-  background-position: -220px -740px;
+  background-position: -11em -37em;
 }
 
 .ap-badminton_racquet_and_shuttlecock {
-  background-position: -220px -760px;
+  background-position: -11em -38em;
 }
 
 .ap-bow_and_arrow {
-  background-position: -220px -780px;
+  background-position: -11em -39em;
 }
 
 .ap-amphora {
-  background-position: -220px -800px;
+  background-position: -11em -40em;
 }
 
 .ap-skin-tone-2 {
-  background-position: -240px -0px;
+  background-position: -12em 0em;
 }
 
 .ap-skin-tone-3 {
-  background-position: -240px -20px;
+  background-position: -12em -1em;
 }
 
 .ap-skin-tone-4 {
-  background-position: -240px -40px;
+  background-position: -12em -2em;
 }
 
 .ap-skin-tone-5 {
-  background-position: -240px -60px;
+  background-position: -12em -3em;
 }
 
 .ap-skin-tone-6 {
-  background-position: -240px -80px;
+  background-position: -12em -4em;
 }
 
 .ap-rat {
-  background-position: -240px -100px;
+  background-position: -12em -5em;
 }
 
 .ap-mouse2 {
-  background-position: -240px -120px;
+  background-position: -12em -6em;
 }
 
 .ap-ox {
-  background-position: -240px -140px;
+  background-position: -12em -7em;
 }
 
 .ap-water_buffalo {
-  background-position: -240px -160px;
+  background-position: -12em -8em;
 }
 
 .ap-cow2 {
-  background-position: -240px -180px;
+  background-position: -12em -9em;
 }
 
 .ap-tiger2 {
-  background-position: -240px -200px;
+  background-position: -12em -10em;
 }
 
 .ap-leopard {
-  background-position: -240px -220px;
+  background-position: -12em -11em;
 }
 
 .ap-rabbit2 {
-  background-position: -240px -240px;
+  background-position: -12em -12em;
 }
 
 .ap-cat2 {
-  background-position: -240px -260px;
+  background-position: -12em -13em;
 }
 
 .ap-dragon {
-  background-position: -240px -280px;
+  background-position: -12em -14em;
 }
 
 .ap-crocodile {
-  background-position: -240px -300px;
+  background-position: -12em -15em;
 }
 
 .ap-whale2 {
-  background-position: -240px -320px;
+  background-position: -12em -16em;
 }
 
 .ap-snail {
-  background-position: -240px -340px;
+  background-position: -12em -17em;
 }
 
 .ap-snake {
-  background-position: -240px -360px;
+  background-position: -12em -18em;
 }
 
 .ap-racehorse {
-  background-position: -240px -380px;
+  background-position: -12em -19em;
 }
 
 .ap-ram {
-  background-position: -240px -400px;
+  background-position: -12em -20em;
 }
 
 .ap-goat {
-  background-position: -240px -420px;
+  background-position: -12em -21em;
 }
 
 .ap-sheep {
-  background-position: -240px -440px;
+  background-position: -12em -22em;
 }
 
 .ap-monkey {
-  background-position: -240px -460px;
+  background-position: -12em -23em;
 }
 
 .ap-rooster {
-  background-position: -240px -480px;
+  background-position: -12em -24em;
 }
 
 .ap-chicken {
-  background-position: -240px -500px;
+  background-position: -12em -25em;
 }
 
 .ap-dog2 {
-  background-position: -240px -520px;
+  background-position: -12em -26em;
 }
 
 .ap-pig2 {
-  background-position: -240px -540px;
+  background-position: -12em -27em;
 }
 
 .ap-boar {
-  background-position: -240px -560px;
+  background-position: -12em -28em;
 }
 
 .ap-elephant {
-  background-position: -240px -580px;
+  background-position: -12em -29em;
 }
 
 .ap-octopus {
-  background-position: -240px -600px;
+  background-position: -12em -30em;
 }
 
 .ap-shell {
-  background-position: -240px -620px;
+  background-position: -12em -31em;
 }
 
 .ap-bug {
-  background-position: -240px -640px;
+  background-position: -12em -32em;
 }
 
 .ap-ant {
-  background-position: -240px -660px;
+  background-position: -12em -33em;
 }
 
 .ap-bee {
-  background-position: -240px -680px;
+  background-position: -12em -34em;
 }
 
 .ap-beetle {
-  background-position: -240px -700px;
+  background-position: -12em -35em;
 }
 
 .ap-fish {
-  background-position: -240px -720px;
+  background-position: -12em -36em;
 }
 
 .ap-tropical_fish {
-  background-position: -240px -740px;
+  background-position: -12em -37em;
 }
 
 .ap-blowfish {
-  background-position: -240px -760px;
+  background-position: -12em -38em;
 }
 
 .ap-turtle {
-  background-position: -240px -780px;
+  background-position: -12em -39em;
 }
 
 .ap-hatching_chick {
-  background-position: -240px -800px;
+  background-position: -12em -40em;
 }
 
 .ap-baby_chick {
-  background-position: -260px -0px;
+  background-position: -13em 0em;
 }
 
 .ap-hatched_chick {
-  background-position: -260px -20px;
+  background-position: -13em -1em;
 }
 
 .ap-bird {
-  background-position: -260px -40px;
+  background-position: -13em -2em;
 }
 
 .ap-penguin {
-  background-position: -260px -60px;
+  background-position: -13em -3em;
 }
 
 .ap-koala {
-  background-position: -260px -80px;
+  background-position: -13em -4em;
 }
 
 .ap-poodle {
-  background-position: -260px -100px;
+  background-position: -13em -5em;
 }
 
 .ap-dromedary_camel {
-  background-position: -260px -120px;
+  background-position: -13em -6em;
 }
 
 .ap-camel {
-  background-position: -260px -140px;
+  background-position: -13em -7em;
 }
 
 .ap-dolphin {
-  background-position: -260px -160px;
+  background-position: -13em -8em;
 }
 
 .ap-mouse {
-  background-position: -260px -180px;
+  background-position: -13em -9em;
 }
 
 .ap-cow {
-  background-position: -260px -200px;
+  background-position: -13em -10em;
 }
 
 .ap-tiger {
-  background-position: -260px -220px;
+  background-position: -13em -11em;
 }
 
 .ap-rabbit {
-  background-position: -260px -240px;
+  background-position: -13em -12em;
 }
 
 .ap-cat {
-  background-position: -260px -260px;
+  background-position: -13em -13em;
 }
 
 .ap-dragon_face {
-  background-position: -260px -280px;
+  background-position: -13em -14em;
 }
 
 .ap-whale {
-  background-position: -260px -300px;
+  background-position: -13em -15em;
 }
 
 .ap-horse {
-  background-position: -260px -320px;
+  background-position: -13em -16em;
 }
 
 .ap-monkey_face {
-  background-position: -260px -340px;
+  background-position: -13em -17em;
 }
 
 .ap-dog {
-  background-position: -260px -360px;
+  background-position: -13em -18em;
 }
 
 .ap-pig {
-  background-position: -260px -380px;
+  background-position: -13em -19em;
 }
 
 .ap-frog {
-  background-position: -260px -400px;
+  background-position: -13em -20em;
 }
 
 .ap-hamster {
-  background-position: -260px -420px;
+  background-position: -13em -21em;
 }
 
 .ap-wolf {
-  background-position: -260px -440px;
+  background-position: -13em -22em;
 }
 
 .ap-bear {
-  background-position: -260px -460px;
+  background-position: -13em -23em;
 }
 
 .ap-panda_face {
-  background-position: -260px -480px;
+  background-position: -13em -24em;
 }
 
 .ap-pig_nose {
-  background-position: -260px -500px;
+  background-position: -13em -25em;
 }
 
 .ap-feet {
-  background-position: -260px -520px;
+  background-position: -13em -26em;
 }
 
 .ap-chipmunk {
-  background-position: -260px -540px;
+  background-position: -13em -27em;
 }
 
 .ap-eyes {
-  background-position: -260px -560px;
+  background-position: -13em -28em;
 }
 
 .ap-eye {
-  background-position: -260px -580px;
+  background-position: -13em -29em;
 }
 
 .ap-ear {
-  background-position: -260px -600px;
+  background-position: -13em -30em;
 }
 
 .ap-nose {
-  background-position: -260px -720px;
+  background-position: -13em -36em;
 }
 
 .ap-lips {
-  background-position: -280px -20px;
+  background-position: -14em -1em;
 }
 
 .ap-tongue {
-  background-position: -280px -40px;
+  background-position: -14em -2em;
 }
 
 .ap-point_up_2 {
-  background-position: -280px -60px;
+  background-position: -14em -3em;
 }
 
 .ap-point_down {
-  background-position: -280px -180px;
+  background-position: -14em -9em;
 }
 
 .ap-point_left {
-  background-position: -280px -300px;
+  background-position: -14em -15em;
 }
 
 .ap-point_right {
-  background-position: -280px -420px;
+  background-position: -14em -21em;
 }
 
 .ap-facepunch {
-  background-position: -280px -540px;
+  background-position: -14em -27em;
 }
 
 .ap-wave {
-  background-position: -280px -660px;
+  background-position: -14em -33em;
 }
 
 .ap-ok_hand {
-  background-position: -280px -780px;
+  background-position: -14em -39em;
 }
 
 .ap-thumbsup {
-  background-position: -300px -80px;
+  background-position: -15em -4em;
 }
 
 .ap--1,
 .ap-thumbsdown {
-  background-position: -300px -200px;
+  background-position: -15em -10em;
 }
 
 .ap-clap {
-  background-position: -300px -320px;
+  background-position: -15em -16em;
 }
 
 .ap-open_hands {
-  background-position: -300px -440px;
+  background-position: -15em -22em;
 }
 
 .ap-crown {
-  background-position: -300px -560px;
+  background-position: -15em -28em;
 }
 
 .ap-womans_hat {
-  background-position: -300px -580px;
+  background-position: -15em -29em;
 }
 
 .ap-eyeglasses {
-  background-position: -300px -600px;
+  background-position: -15em -30em;
 }
 
 .ap-necktie {
-  background-position: -300px -620px;
+  background-position: -15em -31em;
 }
 
 .ap-shirt {
-  background-position: -300px -640px;
+  background-position: -15em -32em;
 }
 
 .ap-jeans {
-  background-position: -300px -660px;
+  background-position: -15em -33em;
 }
 
 .ap-dress {
-  background-position: -300px -680px;
+  background-position: -15em -34em;
 }
 
 .ap-kimono {
-  background-position: -300px -700px;
+  background-position: -15em -35em;
 }
 
 .ap-bikini {
-  background-position: -300px -720px;
+  background-position: -15em -36em;
 }
 
 .ap-womans_clothes {
-  background-position: -300px -740px;
+  background-position: -15em -37em;
 }
 
 .ap-purse {
-  background-position: -300px -760px;
+  background-position: -15em -38em;
 }
 
 .ap-handbag {
-  background-position: -300px -780px;
+  background-position: -15em -39em;
 }
 
 .ap-pouch {
-  background-position: -300px -800px;
+  background-position: -15em -40em;
 }
 
 .ap-mans_shoe {
-  background-position: -320px -0px;
+  background-position: -16em 0em;
 }
 
 .ap-athletic_shoe {
-  background-position: -320px -20px;
+  background-position: -16em -1em;
 }
 
 .ap-high_heel {
-  background-position: -320px -40px;
+  background-position: -16em -2em;
 }
 
 .ap-sandal {
-  background-position: -320px -60px;
+  background-position: -16em -3em;
 }
 
 .ap-boot {
-  background-position: -320px -80px;
+  background-position: -16em -4em;
 }
 
 .ap-footprints {
-  background-position: -320px -100px;
+  background-position: -16em -5em;
 }
 
 .ap-bust_in_silhouette {
-  background-position: -320px -120px;
+  background-position: -16em -6em;
 }
 
 .ap-busts_in_silhouette {
-  background-position: -320px -140px;
+  background-position: -16em -7em;
 }
 
 .ap-boy {
-  background-position: -320px -160px;
+  background-position: -16em -8em;
 }
 
 .ap-girl {
-  background-position: -320px -280px;
+  background-position: -16em -14em;
 }
 
 .ap-man {
-  background-position: -320px -400px;
+  background-position: -16em -20em;
 }
 
 .ap-woman {
-  background-position: -320px -520px;
+  background-position: -16em -26em;
 }
 
 .ap-family {
-  background-position: -320px -640px;
+  background-position: -16em -32em;
 }
 
 .ap-couple {
-  background-position: -320px -660px;
+  background-position: -16em -33em;
 }
 
 .ap-two_men_holding_hands {
-  background-position: -320px -680px;
+  background-position: -16em -34em;
 }
 
 .ap-two_women_holding_hands {
-  background-position: -320px -700px;
+  background-position: -16em -35em;
 }
 
 .ap-cop {
-  background-position: -320px -720px;
+  background-position: -16em -36em;
 }
 
 .ap-dancers {
-  background-position: -340px -20px;
+  background-position: -17em -1em;
 }
 
 .ap-bride_with_veil {
-  background-position: -340px -40px;
+  background-position: -17em -2em;
 }
 
 .ap-person_with_blond_hair {
-  background-position: -340px -160px;
+  background-position: -17em -8em;
 }
 
 .ap-man_with_gua_pi_mao {
-  background-position: -340px -280px;
+  background-position: -17em -14em;
 }
 
 .ap-man_with_turban {
-  background-position: -340px -400px;
+  background-position: -17em -20em;
 }
 
 .ap-older_man {
-  background-position: -340px -520px;
+  background-position: -17em -26em;
 }
 
 .ap-older_woman {
-  background-position: -340px -640px;
+  background-position: -17em -32em;
 }
 
 .ap-baby {
-  background-position: -340px -760px;
+  background-position: -17em -38em;
 }
 
 .ap-construction_worker {
-  background-position: -360px -60px;
+  background-position: -18em -3em;
 }
 
 .ap-princess {
-  background-position: -360px -180px;
+  background-position: -18em -9em;
 }
 
 .ap-japanese_ogre {
-  background-position: -360px -300px;
+  background-position: -18em -15em;
 }
 
 .ap-japanese_goblin {
-  background-position: -360px -320px;
+  background-position: -18em -16em;
 }
 
 .ap-ghost {
-  background-position: -360px -340px;
+  background-position: -18em -17em;
 }
 
 .ap-angel {
-  background-position: -360px -360px;
+  background-position: -18em -18em;
 }
 
 .ap-alien {
-  background-position: -360px -480px;
+  background-position: -18em -24em;
 }
 
 .ap-space_invader {
-  background-position: -360px -500px;
+  background-position: -18em -25em;
 }
 
 .ap-imp {
-  background-position: -360px -520px;
+  background-position: -18em -26em;
 }
 
 .ap-skull {
-  background-position: -360px -540px;
+  background-position: -18em -27em;
 }
 
 .ap-information_desk_person {
-  background-position: -360px -560px;
+  background-position: -18em -28em;
 }
 
 .ap-guardsman {
-  background-position: -360px -680px;
+  background-position: -18em -34em;
 }
 
 .ap-dancer {
-  background-position: -360px -800px;
+  background-position: -18em -40em;
 }
 
 .ap-lipstick {
-  background-position: -380px -100px;
+  background-position: -19em -5em;
 }
 
 .ap-nail_care {
-  background-position: -380px -120px;
+  background-position: -19em -6em;
 }
 
 .ap-massage {
-  background-position: -380px -240px;
+  background-position: -19em -12em;
 }
 
 .ap-haircut {
-  background-position: -380px -360px;
+  background-position: -19em -18em;
 }
 
 .ap-barber {
-  background-position: -380px -480px;
+  background-position: -19em -24em;
 }
 
 .ap-syringe {
-  background-position: -380px -500px;
+  background-position: -19em -25em;
 }
 
 .ap-pill {
-  background-position: -380px -520px;
+  background-position: -19em -26em;
 }
 
 .ap-kiss {
-  background-position: -380px -540px;
+  background-position: -19em -27em;
 }
 
 .ap-love_letter {
-  background-position: -380px -560px;
+  background-position: -19em -28em;
 }
 
 .ap-ring {
-  background-position: -380px -580px;
+  background-position: -19em -29em;
 }
 
 .ap-gem {
-  background-position: -380px -600px;
+  background-position: -19em -30em;
 }
 
 .ap-couplekiss {
-  background-position: -380px -620px;
+  background-position: -19em -31em;
 }
 
 .ap-bouquet {
-  background-position: -380px -640px;
+  background-position: -19em -32em;
 }
 
 .ap-couple_with_heart {
-  background-position: -380px -660px;
+  background-position: -19em -33em;
 }
 
 .ap-wedding {
-  background-position: -380px -680px;
+  background-position: -19em -34em;
 }
 
 .ap-heartbeat {
-  background-position: -380px -700px;
+  background-position: -19em -35em;
 }
 
 .ap-broken_heart {
-  background-position: -380px -720px;
+  background-position: -19em -36em;
 }
 
 .ap-two_hearts {
-  background-position: -380px -740px;
+  background-position: -19em -37em;
 }
 
 .ap-sparkling_heart {
-  background-position: -380px -760px;
+  background-position: -19em -38em;
 }
 
 .ap-heartpulse {
-  background-position: -380px -780px;
+  background-position: -19em -39em;
 }
 
 .ap-cupid {
-  background-position: -380px -800px;
+  background-position: -19em -40em;
 }
 
 .ap-blue_heart {
-  background-position: -400px -0px;
+  background-position: -20em 0em;
 }
 
 .ap-green_heart {
-  background-position: -400px -20px;
+  background-position: -20em -1em;
 }
 
 .ap-yellow_heart {
-  background-position: -400px -40px;
+  background-position: -20em -2em;
 }
 
 .ap-purple_heart {
-  background-position: -400px -60px;
+  background-position: -20em -3em;
 }
 
 .ap-gift_heart {
-  background-position: -400px -80px;
+  background-position: -20em -4em;
 }
 
 .ap-revolving_hearts {
-  background-position: -400px -100px;
+  background-position: -20em -5em;
 }
 
 .ap-heart_decoration {
-  background-position: -400px -120px;
+  background-position: -20em -6em;
 }
 
 .ap-diamond_shape_with_a_dot_inside {
-  background-position: -400px -140px;
+  background-position: -20em -7em;
 }
 
 .ap-bulb {
-  background-position: -400px -160px;
+  background-position: -20em -8em;
 }
 
 .ap-anger {
-  background-position: -400px -180px;
+  background-position: -20em -9em;
 }
 
 .ap-bomb {
-  background-position: -400px -200px;
+  background-position: -20em -10em;
 }
 
 .ap-zzz {
-  background-position: -400px -220px;
+  background-position: -20em -11em;
 }
 
 .ap-boom {
-  background-position: -400px -240px;
+  background-position: -20em -12em;
 }
 
 .ap-sweat_drops {
-  background-position: -400px -260px;
+  background-position: -20em -13em;
 }
 
 .ap-droplet {
-  background-position: -400px -280px;
+  background-position: -20em -14em;
 }
 
 .ap-dash {
-  background-position: -400px -300px;
+  background-position: -20em -15em;
 }
 
 .ap-hankey {
-  background-position: -400px -320px;
+  background-position: -20em -16em;
 }
 
 .ap-muscle {
-  background-position: -400px -340px;
+  background-position: -20em -17em;
 }
 
 .ap-dizzy {
-  background-position: -400px -460px;
+  background-position: -20em -23em;
 }
 
 .ap-speech_balloon {
-  background-position: -400px -480px;
+  background-position: -20em -24em;
 }
 
 .ap-thought_balloon {
-  background-position: -400px -500px;
+  background-position: -20em -25em;
 }
 
 .ap-white_flower {
-  background-position: -400px -520px;
+  background-position: -20em -26em;
 }
 
 .ap-100 {
-  background-position: -400px -540px;
+  background-position: -20em -27em;
 }
 
 .ap-moneybag {
-  background-position: -400px -560px;
+  background-position: -20em -28em;
 }
 
 .ap-currency_exchange {
-  background-position: -400px -580px;
+  background-position: -20em -29em;
 }
 
 .ap-heavy_dollar_sign {
-  background-position: -400px -600px;
+  background-position: -20em -30em;
 }
 
 .ap-credit_card {
-  background-position: -400px -620px;
+  background-position: -20em -31em;
 }
 
 .ap-yen {
-  background-position: -400px -640px;
+  background-position: -20em -32em;
 }
 
 .ap-dollar {
-  background-position: -400px -660px;
+  background-position: -20em -33em;
 }
 
 .ap-euro {
-  background-position: -400px -680px;
+  background-position: -20em -34em;
 }
 
 .ap-pound {
-  background-position: -400px -700px;
+  background-position: -20em -35em;
 }
 
 .ap-money_with_wings {
-  background-position: -400px -720px;
+  background-position: -20em -36em;
 }
 
 .ap-chart {
-  background-position: -400px -740px;
+  background-position: -20em -37em;
 }
 
 .ap-seat {
-  background-position: -400px -760px;
+  background-position: -20em -38em;
 }
 
 .ap-computer {
-  background-position: -400px -780px;
+  background-position: -20em -39em;
 }
 
 .ap-briefcase {
-  background-position: -400px -800px;
+  background-position: -20em -40em;
 }
 
 .ap-minidisc {
-  background-position: -420px -0px;
+  background-position: -21em 0em;
 }
 
 .ap-floppy_disk {
-  background-position: -420px -20px;
+  background-position: -21em -1em;
 }
 
 .ap-cd {
-  background-position: -420px -40px;
+  background-position: -21em -2em;
 }
 
 .ap-dvd {
-  background-position: -420px -60px;
+  background-position: -21em -3em;
 }
 
 .ap-file_folder {
-  background-position: -420px -80px;
+  background-position: -21em -4em;
 }
 
 .ap-open_file_folder {
-  background-position: -420px -100px;
+  background-position: -21em -5em;
 }
 
 .ap-page_with_curl {
-  background-position: -420px -120px;
+  background-position: -21em -6em;
 }
 
 .ap-page_facing_up {
-  background-position: -420px -140px;
+  background-position: -21em -7em;
 }
 
 .ap-date {
-  background-position: -420px -160px;
+  background-position: -21em -8em;
 }
 
 .ap-calendar {
-  background-position: -420px -180px;
+  background-position: -21em -9em;
 }
 
 .ap-card_index {
-  background-position: -420px -200px;
+  background-position: -21em -10em;
 }
 
 .ap-chart_with_upwards_trend {
-  background-position: -420px -220px;
+  background-position: -21em -11em;
 }
 
 .ap-chart_with_downwards_trend {
-  background-position: -420px -240px;
+  background-position: -21em -12em;
 }
 
 .ap-bar_chart {
-  background-position: -420px -260px;
+  background-position: -21em -13em;
 }
 
 .ap-clipboard {
-  background-position: -420px -280px;
+  background-position: -21em -14em;
 }
 
 .ap-pushpin {
-  background-position: -420px -300px;
+  background-position: -21em -15em;
 }
 
 .ap-round_pushpin {
-  background-position: -420px -320px;
+  background-position: -21em -16em;
 }
 
 .ap-paperclip {
-  background-position: -420px -340px;
+  background-position: -21em -17em;
 }
 
 .ap-straight_ruler {
-  background-position: -420px -360px;
+  background-position: -21em -18em;
 }
 
 .ap-triangular_ruler {
-  background-position: -420px -380px;
+  background-position: -21em -19em;
 }
 
 .ap-bookmark_tabs {
-  background-position: -420px -400px;
+  background-position: -21em -20em;
 }
 
 .ap-ledger {
-  background-position: -420px -420px;
+  background-position: -21em -21em;
 }
 
 .ap-notebook {
-  background-position: -420px -440px;
+  background-position: -21em -22em;
 }
 
 .ap-notebook_with_decorative_cover {
-  background-position: -420px -460px;
+  background-position: -21em -23em;
 }
 
 .ap-closed_book {
-  background-position: -420px -480px;
+  background-position: -21em -24em;
 }
 
 .ap-book {
-  background-position: -420px -500px;
+  background-position: -21em -25em;
 }
 
 .ap-green_book {
-  background-position: -420px -520px;
+  background-position: -21em -26em;
 }
 
 .ap-blue_book {
-  background-position: -420px -540px;
+  background-position: -21em -27em;
 }
 
 .ap-orange_book {
-  background-position: -420px -560px;
+  background-position: -21em -28em;
 }
 
 .ap-books {
-  background-position: -420px -580px;
+  background-position: -21em -29em;
 }
 
 .ap-name_badge {
-  background-position: -420px -600px;
+  background-position: -21em -30em;
 }
 
 .ap-scroll {
-  background-position: -420px -620px;
+  background-position: -21em -31em;
 }
 
 .ap-memo {
-  background-position: -420px -640px;
+  background-position: -21em -32em;
 }
 
 .ap-telephone_receiver {
-  background-position: -420px -660px;
+  background-position: -21em -33em;
 }
 
 .ap-pager {
-  background-position: -420px -680px;
+  background-position: -21em -34em;
 }
 
 .ap-fax {
-  background-position: -420px -700px;
+  background-position: -21em -35em;
 }
 
 .ap-satellite_antenna {
-  background-position: -420px -720px;
+  background-position: -21em -36em;
 }
 
 .ap-loudspeaker {
-  background-position: -420px -740px;
+  background-position: -21em -37em;
 }
 
 .ap-mega {
-  background-position: -420px -760px;
+  background-position: -21em -38em;
 }
 
 .ap-outbox_tray {
-  background-position: -420px -780px;
+  background-position: -21em -39em;
 }
 
 .ap-inbox_tray {
-  background-position: -420px -800px;
+  background-position: -21em -40em;
 }
 
 .ap-package {
-  background-position: -440px -0px;
+  background-position: -22em 0em;
 }
 
 .ap-e-mail {
-  background-position: -440px -20px;
+  background-position: -22em -1em;
 }
 
 .ap-incoming_envelope {
-  background-position: -440px -40px;
+  background-position: -22em -2em;
 }
 
 .ap-envelope_with_arrow {
-  background-position: -440px -60px;
+  background-position: -22em -3em;
 }
 
 .ap-mailbox_closed {
-  background-position: -440px -80px;
+  background-position: -22em -4em;
 }
 
 .ap-mailbox {
-  background-position: -440px -100px;
+  background-position: -22em -5em;
 }
 
 .ap-mailbox_with_mail {
-  background-position: -440px -120px;
+  background-position: -22em -6em;
 }
 
 .ap-mailbox_with_no_mail {
-  background-position: -440px -140px;
+  background-position: -22em -7em;
 }
 
 .ap-postbox {
-  background-position: -440px -160px;
+  background-position: -22em -8em;
 }
 
 .ap-postal_horn {
-  background-position: -440px -180px;
+  background-position: -22em -9em;
 }
 
 .ap-newspaper {
-  background-position: -440px -200px;
+  background-position: -22em -10em;
 }
 
 .ap-iphone {
-  background-position: -440px -220px;
+  background-position: -22em -11em;
 }
 
 .ap-calling {
-  background-position: -440px -240px;
+  background-position: -22em -12em;
 }
 
 .ap-vibration_mode {
-  background-position: -440px -260px;
+  background-position: -22em -13em;
 }
 
 .ap-mobile_phone_off {
-  background-position: -440px -280px;
+  background-position: -22em -14em;
 }
 
 .ap-no_mobile_phones {
-  background-position: -440px -300px;
+  background-position: -22em -15em;
 }
 
 .ap-signal_strength {
-  background-position: -440px -320px;
+  background-position: -22em -16em;
 }
 
 .ap-camera {
-  background-position: -440px -340px;
+  background-position: -22em -17em;
 }
 
 .ap-camera_with_flash {
-  background-position: -440px -360px;
+  background-position: -22em -18em;
 }
 
 .ap-video_camera {
-  background-position: -440px -380px;
+  background-position: -22em -19em;
 }
 
 .ap-tv {
-  background-position: -440px -400px;
+  background-position: -22em -20em;
 }
 
 .ap-radio {
-  background-position: -440px -420px;
+  background-position: -22em -21em;
 }
 
 .ap-vhs {
-  background-position: -440px -440px;
+  background-position: -22em -22em;
 }
 
 .ap-film_projector {
-  background-position: -440px -460px;
+  background-position: -22em -23em;
 }
 
 .ap-prayer_beads {
-  background-position: -440px -480px;
+  background-position: -22em -24em;
 }
 
 .ap-twisted_rightwards_arrows {
-  background-position: -440px -500px;
+  background-position: -22em -25em;
 }
 
 .ap-repeat {
-  background-position: -440px -520px;
+  background-position: -22em -26em;
 }
 
 .ap-repeat_one {
-  background-position: -440px -540px;
+  background-position: -22em -27em;
 }
 
 .ap-arrows_clockwise {
-  background-position: -440px -560px;
+  background-position: -22em -28em;
 }
 
 .ap-arrows_counterclockwise {
-  background-position: -440px -580px;
+  background-position: -22em -29em;
 }
 
 .ap-low_brightness {
-  background-position: -440px -600px;
+  background-position: -22em -30em;
 }
 
 .ap-high_brightness {
-  background-position: -440px -620px;
+  background-position: -22em -31em;
 }
 
 .ap-mute {
-  background-position: -440px -640px;
+  background-position: -22em -32em;
 }
 
 .ap-speaker {
-  background-position: -440px -660px;
+  background-position: -22em -33em;
 }
 
 .ap-sound {
-  background-position: -440px -680px;
+  background-position: -22em -34em;
 }
 
 .ap-loud_sound {
-  background-position: -440px -700px;
+  background-position: -22em -35em;
 }
 
 .ap-battery {
-  background-position: -440px -720px;
+  background-position: -22em -36em;
 }
 
 .ap-electric_plug {
-  background-position: -440px -740px;
+  background-position: -22em -37em;
 }
 
 .ap-mag {
-  background-position: -440px -760px;
+  background-position: -22em -38em;
 }
 
 .ap-mag_right {
-  background-position: -440px -780px;
+  background-position: -22em -39em;
 }
 
 .ap-lock_with_ink_pen {
-  background-position: -440px -800px;
+  background-position: -22em -40em;
 }
 
 .ap-closed_lock_with_key {
-  background-position: -460px -0px;
+  background-position: -23em 0em;
 }
 
 .ap-key {
-  background-position: -460px -20px;
+  background-position: -23em -1em;
 }
 
 .ap-lock {
-  background-position: -460px -40px;
+  background-position: -23em -2em;
 }
 
 .ap-unlock {
-  background-position: -460px -60px;
+  background-position: -23em -3em;
 }
 
 .ap-bell {
-  background-position: -460px -80px;
+  background-position: -23em -4em;
 }
 
 .ap-no_bell {
-  background-position: -460px -100px;
+  background-position: -23em -5em;
 }
 
 .ap-bookmark {
-  background-position: -460px -120px;
+  background-position: -23em -6em;
 }
 
 .ap-link {
-  background-position: -460px -140px;
+  background-position: -23em -7em;
 }
 
 .ap-radio_button {
-  background-position: -460px -160px;
+  background-position: -23em -8em;
 }
 
 .ap-back {
-  background-position: -460px -180px;
+  background-position: -23em -9em;
 }
 
 .ap-end {
-  background-position: -460px -200px;
+  background-position: -23em -10em;
 }
 
 .ap-on {
-  background-position: -460px -220px;
+  background-position: -23em -11em;
 }
 
 .ap-soon {
-  background-position: -460px -240px;
+  background-position: -23em -12em;
 }
 
 .ap-top {
-  background-position: -460px -260px;
+  background-position: -23em -13em;
 }
 
 .ap-underage {
-  background-position: -460px -280px;
+  background-position: -23em -14em;
 }
 
 .ap-keycap_ten {
-  background-position: -460px -300px;
+  background-position: -23em -15em;
 }
 
 .ap-capital_abcd {
-  background-position: -460px -320px;
+  background-position: -23em -16em;
 }
 
 .ap-abcd {
-  background-position: -460px -340px;
+  background-position: -23em -17em;
 }
 
 .ap-1234 {
-  background-position: -460px -360px;
+  background-position: -23em -18em;
 }
 
 .ap-symbols {
-  background-position: -460px -380px;
+  background-position: -23em -19em;
 }
 
 .ap-abc {
-  background-position: -460px -400px;
+  background-position: -23em -20em;
 }
 
 .ap-fire {
-  background-position: -460px -420px;
+  background-position: -23em -21em;
 }
 
 .ap-flashlight {
-  background-position: -460px -440px;
+  background-position: -23em -22em;
 }
 
 .ap-wrench {
-  background-position: -460px -460px;
+  background-position: -23em -23em;
 }
 
 .ap-hammer {
-  background-position: -460px -480px;
+  background-position: -23em -24em;
 }
 
 .ap-nut_and_bolt {
-  background-position: -460px -500px;
+  background-position: -23em -25em;
 }
 
 .ap-hocho {
-  background-position: -460px -520px;
+  background-position: -23em -26em;
 }
 
 .ap-gun {
-  background-position: -460px -540px;
+  background-position: -23em -27em;
 }
 
 .ap-microscope {
-  background-position: -460px -560px;
+  background-position: -23em -28em;
 }
 
 .ap-telescope {
-  background-position: -460px -580px;
+  background-position: -23em -29em;
 }
 
 .ap-crystal_ball {
-  background-position: -460px -600px;
+  background-position: -23em -30em;
 }
 
 .ap-six_pointed_star {
-  background-position: -460px -620px;
+  background-position: -23em -31em;
 }
 
 .ap-beginner {
-  background-position: -460px -640px;
+  background-position: -23em -32em;
 }
 
 .ap-trident {
-  background-position: -460px -660px;
+  background-position: -23em -33em;
 }
 
 .ap-black_square_button {
-  background-position: -460px -680px;
+  background-position: -23em -34em;
 }
 
 .ap-white_square_button {
-  background-position: -460px -700px;
+  background-position: -23em -35em;
 }
 
 .ap-red_circle {
-  background-position: -460px -720px;
+  background-position: -23em -36em;
 }
 
 .ap-large_blue_circle {
-  background-position: -460px -740px;
+  background-position: -23em -37em;
 }
 
 .ap-large_orange_diamond {
-  background-position: -460px -760px;
+  background-position: -23em -38em;
 }
 
 .ap-large_blue_diamond {
-  background-position: -460px -780px;
+  background-position: -23em -39em;
 }
 
 .ap-small_orange_diamond {
-  background-position: -460px -800px;
+  background-position: -23em -40em;
 }
 
 .ap-small_blue_diamond {
-  background-position: -480px -0px;
+  background-position: -24em 0em;
 }
 
 .ap-small_red_triangle {
-  background-position: -480px -20px;
+  background-position: -24em -1em;
 }
 
 .ap-small_red_triangle_down {
-  background-position: -480px -40px;
+  background-position: -24em -2em;
 }
 
 .ap-arrow_up_small {
-  background-position: -480px -60px;
+  background-position: -24em -3em;
 }
 
 .ap-arrow_down_small {
-  background-position: -480px -80px;
+  background-position: -24em -4em;
 }
 
 .ap-om_symbol {
-  background-position: -480px -100px;
+  background-position: -24em -5em;
 }
 
 .ap-dove_of_peace {
-  background-position: -480px -120px;
+  background-position: -24em -6em;
 }
 
 .ap-kaaba {
-  background-position: -480px -140px;
+  background-position: -24em -7em;
 }
 
 .ap-mosque {
-  background-position: -480px -160px;
+  background-position: -24em -8em;
 }
 
 .ap-synagogue {
-  background-position: -480px -180px;
+  background-position: -24em -9em;
 }
 
 .ap-menorah_with_nine_branches {
-  background-position: -480px -200px;
+  background-position: -24em -10em;
 }
 
 .ap-clock1 {
-  background-position: -480px -220px;
+  background-position: -24em -11em;
 }
 
 .ap-clock2 {
-  background-position: -480px -240px;
+  background-position: -24em -12em;
 }
 
 .ap-clock3 {
-  background-position: -480px -260px;
+  background-position: -24em -13em;
 }
 
 .ap-clock4 {
-  background-position: -480px -280px;
+  background-position: -24em -14em;
 }
 
 .ap-clock5 {
-  background-position: -480px -300px;
+  background-position: -24em -15em;
 }
 
 .ap-clock6 {
-  background-position: -480px -320px;
+  background-position: -24em -16em;
 }
 
 .ap-clock7 {
-  background-position: -480px -340px;
+  background-position: -24em -17em;
 }
 
 .ap-clock8 {
-  background-position: -480px -360px;
+  background-position: -24em -18em;
 }
 
 .ap-clock9 {
-  background-position: -480px -380px;
+  background-position: -24em -19em;
 }
 
 .ap-clock10 {
-  background-position: -480px -400px;
+  background-position: -24em -20em;
 }
 
 .ap-clock11 {
-  background-position: -480px -420px;
+  background-position: -24em -21em;
 }
 
 .ap-clock12 {
-  background-position: -480px -440px;
+  background-position: -24em -22em;
 }
 
 .ap-clock130 {
-  background-position: -480px -460px;
+  background-position: -24em -23em;
 }
 
 .ap-clock230 {
-  background-position: -480px -480px;
+  background-position: -24em -24em;
 }
 
 .ap-clock330 {
-  background-position: -480px -500px;
+  background-position: -24em -25em;
 }
 
 .ap-clock430 {
-  background-position: -480px -520px;
+  background-position: -24em -26em;
 }
 
 .ap-clock530 {
-  background-position: -480px -540px;
+  background-position: -24em -27em;
 }
 
 .ap-clock630 {
-  background-position: -480px -560px;
+  background-position: -24em -28em;
 }
 
 .ap-clock730 {
-  background-position: -480px -580px;
+  background-position: -24em -29em;
 }
 
 .ap-clock830 {
-  background-position: -480px -600px;
+  background-position: -24em -30em;
 }
 
 .ap-clock930 {
-  background-position: -480px -620px;
+  background-position: -24em -31em;
 }
 
 .ap-clock1030 {
-  background-position: -480px -640px;
+  background-position: -24em -32em;
 }
 
 .ap-clock1130 {
-  background-position: -480px -660px;
+  background-position: -24em -33em;
 }
 
 .ap-clock1230 {
-  background-position: -480px -680px;
+  background-position: -24em -34em;
 }
 
 .ap-candle {
-  background-position: -480px -700px;
+  background-position: -24em -35em;
 }
 
 .ap-mantelpiece_clock {
-  background-position: -480px -720px;
+  background-position: -24em -36em;
 }
 
 .ap-hole {
-  background-position: -480px -740px;
+  background-position: -24em -37em;
 }
 
 .ap-man_in_business_suit_levitating {
-  background-position: -480px -760px;
+  background-position: -24em -38em;
 }
 
 .ap-sleuth_or_spy {
-  background-position: -480px -780px;
+  background-position: -24em -39em;
 }
 
 .ap-dark_sunglasses {
-  background-position: -500px -80px;
+  background-position: -25em -4em;
 }
 
 .ap-spider {
-  background-position: -500px -100px;
+  background-position: -25em -5em;
 }
 
 .ap-spider_web {
-  background-position: -500px -120px;
+  background-position: -25em -6em;
 }
 
 .ap-joystick {
-  background-position: -500px -140px;
+  background-position: -25em -7em;
 }
 
 .ap-linked_paperclips {
-  background-position: -500px -160px;
+  background-position: -25em -8em;
 }
 
 .ap-lower_left_ballpoint_pen {
-  background-position: -500px -180px;
+  background-position: -25em -9em;
 }
 
 .ap-lower_left_fountain_pen {
-  background-position: -500px -200px;
+  background-position: -25em -10em;
 }
 
 .ap-lower_left_paintbrush {
-  background-position: -500px -220px;
+  background-position: -25em -11em;
 }
 
 .ap-lower_left_crayon {
-  background-position: -500px -240px;
+  background-position: -25em -12em;
 }
 
 .ap-raised_hand_with_fingers_splayed {
-  background-position: -500px -260px;
+  background-position: -25em -13em;
 }
 
 .ap-middle_finger {
-  background-position: -500px -380px;
+  background-position: -25em -19em;
 }
 
 .ap-spock-hand {
-  background-position: -500px -500px;
+  background-position: -25em -25em;
 }
 
 .ap-desktop_computer {
-  background-position: -500px -620px;
+  background-position: -25em -31em;
 }
 
 .ap-printer {
-  background-position: -500px -640px;
+  background-position: -25em -32em;
 }
 
 .ap-three_button_mouse {
-  background-position: -500px -660px;
+  background-position: -25em -33em;
 }
 
 .ap-trackball {
-  background-position: -500px -680px;
+  background-position: -25em -34em;
 }
 
 .ap-frame_with_picture {
-  background-position: -500px -700px;
+  background-position: -25em -35em;
 }
 
 .ap-card_index_dividers {
-  background-position: -500px -720px;
+  background-position: -25em -36em;
 }
 
 .ap-card_file_box {
-  background-position: -500px -740px;
+  background-position: -25em -37em;
 }
 
 .ap-file_cabinet {
-  background-position: -500px -760px;
+  background-position: -25em -38em;
 }
 
 .ap-wastebasket {
-  background-position: -500px -780px;
+  background-position: -25em -39em;
 }
 
 .ap-spiral_note_pad {
-  background-position: -500px -800px;
+  background-position: -25em -40em;
 }
 
 .ap-spiral_calendar_pad {
-  background-position: -520px -0px;
+  background-position: -26em 0em;
 }
 
 .ap-compression {
-  background-position: -520px -20px;
+  background-position: -26em -1em;
 }
 
 .ap-old_key {
-  background-position: -520px -40px;
+  background-position: -26em -2em;
 }
 
 .ap-rolled_up_newspaper {
-  background-position: -520px -60px;
+  background-position: -26em -3em;
 }
 
 .ap-dagger_knife {
-  background-position: -520px -80px;
+  background-position: -26em -4em;
 }
 
 .ap-speaking_head_in_silhouette {
-  background-position: -520px -100px;
+  background-position: -26em -5em;
 }
 
 .ap-left_speech_bubble {
-  background-position: -520px -120px;
+  background-position: -26em -6em;
 }
 
 .ap-right_anger_bubble {
-  background-position: -520px -140px;
+  background-position: -26em -7em;
 }
 
 .ap-ballot_box_with_ballot {
-  background-position: -520px -160px;
+  background-position: -26em -8em;
 }
 
 .ap-world_map {
-  background-position: -520px -180px;
+  background-position: -26em -9em;
 }
 
 .ap-mount_fuji {
-  background-position: -520px -200px;
+  background-position: -26em -10em;
 }
 
 .ap-tokyo_tower {
-  background-position: -520px -220px;
+  background-position: -26em -11em;
 }
 
 .ap-statue_of_liberty {
-  background-position: -520px -240px;
+  background-position: -26em -12em;
 }
 
 .ap-japan {
-  background-position: -520px -260px;
+  background-position: -26em -13em;
 }
 
 .ap-moyai {
-  background-position: -520px -280px;
+  background-position: -26em -14em;
 }
 
 .ap-grinning {
-  background-position: -520px -300px;
+  background-position: -26em -15em;
 }
 
 .ap-grin {
-  background-position: -520px -320px;
+  background-position: -26em -16em;
 }
 
 .ap-joy {
-  background-position: -520px -340px;
+  background-position: -26em -17em;
 }
 
 .ap-smiley {
-  background-position: -520px -360px;
+  background-position: -26em -18em;
 }
 
 .ap-smile {
-  background-position: -520px -380px;
+  background-position: -26em -19em;
 }
 
 .ap-sweat_smile {
-  background-position: -520px -400px;
+  background-position: -26em -20em;
 }
 
 .ap-laughing {
-  background-position: -520px -420px;
+  background-position: -26em -21em;
 }
 
 .ap-innocent {
-  background-position: -520px -440px;
+  background-position: -26em -22em;
 }
 
 .ap-smiling_imp {
-  background-position: -520px -460px;
+  background-position: -26em -23em;
 }
 
 .ap-wink {
-  background-position: -520px -480px;
+  background-position: -26em -24em;
 }
 
 .ap-blush {
-  background-position: -520px -500px;
+  background-position: -26em -25em;
 }
 
 .ap-yum {
-  background-position: -520px -520px;
+  background-position: -26em -26em;
 }
 
 .ap-relieved {
-  background-position: -520px -540px;
+  background-position: -26em -27em;
 }
 
 .ap-heart_eyes {
-  background-position: -520px -560px;
+  background-position: -26em -28em;
 }
 
 .ap-sunglasses {
-  background-position: -520px -580px;
+  background-position: -26em -29em;
 }
 
 .ap-smirk {
-  background-position: -520px -600px;
+  background-position: -26em -30em;
 }
 
 .ap-neutral_face {
-  background-position: -520px -620px;
+  background-position: -26em -31em;
 }
 
 .ap-expressionless {
-  background-position: -520px -640px;
+  background-position: -26em -32em;
 }
 
 .ap-unamused {
-  background-position: -520px -660px;
+  background-position: -26em -33em;
 }
 
 .ap-sweat {
-  background-position: -520px -680px;
+  background-position: -26em -34em;
 }
 
 .ap-pensive {
-  background-position: -520px -700px;
+  background-position: -26em -35em;
 }
 
 .ap-confused {
-  background-position: -520px -720px;
+  background-position: -26em -36em;
 }
 
 .ap-confounded {
-  background-position: -520px -740px;
+  background-position: -26em -37em;
 }
 
 .ap-kissing {
-  background-position: -520px -760px;
+  background-position: -26em -38em;
 }
 
 .ap-kissing_heart {
-  background-position: -520px -780px;
+  background-position: -26em -39em;
 }
 
 .ap-kissing_smiling_eyes {
-  background-position: -520px -800px;
+  background-position: -26em -40em;
 }
 
 .ap-kissing_closed_eyes {
-  background-position: -540px -0px;
+  background-position: -27em 0em;
 }
 
 .ap-stuck_out_tongue {
-  background-position: -540px -20px;
+  background-position: -27em -1em;
 }
 
 .ap-stuck_out_tongue_winking_eye {
-  background-position: -540px -40px;
+  background-position: -27em -2em;
 }
 
 .ap-stuck_out_tongue_closed_eyes {
-  background-position: -540px -60px;
+  background-position: -27em -3em;
 }
 
 .ap-disappointed {
-  background-position: -540px -80px;
+  background-position: -27em -4em;
 }
 
 .ap-worried {
-  background-position: -540px -100px;
+  background-position: -27em -5em;
 }
 
 .ap-angry {
-  background-position: -540px -120px;
+  background-position: -27em -6em;
 }
 
 .ap-rage {
-  background-position: -540px -140px;
+  background-position: -27em -7em;
 }
 
 .ap-cry {
-  background-position: -540px -160px;
+  background-position: -27em -8em;
 }
 
 .ap-persevere {
-  background-position: -540px -180px;
+  background-position: -27em -9em;
 }
 
 .ap-triumph {
-  background-position: -540px -200px;
+  background-position: -27em -10em;
 }
 
 .ap-disappointed_relieved {
-  background-position: -540px -220px;
+  background-position: -27em -11em;
 }
 
 .ap-frowning {
-  background-position: -540px -240px;
+  background-position: -27em -12em;
 }
 
 .ap-anguished {
-  background-position: -540px -260px;
+  background-position: -27em -13em;
 }
 
 .ap-fearful {
-  background-position: -540px -280px;
+  background-position: -27em -14em;
 }
 
 .ap-weary {
-  background-position: -540px -300px;
+  background-position: -27em -15em;
 }
 
 .ap-sleepy {
-  background-position: -540px -320px;
+  background-position: -27em -16em;
 }
 
 .ap-tired_face {
-  background-position: -540px -340px;
+  background-position: -27em -17em;
 }
 
 .ap-grimacing {
-  background-position: -540px -360px;
+  background-position: -27em -18em;
 }
 
 .ap-sob {
-  background-position: -540px -380px;
+  background-position: -27em -19em;
 }
 
 .ap-open_mouth {
-  background-position: -540px -400px;
+  background-position: -27em -20em;
 }
 
 .ap-hushed {
-  background-position: -540px -420px;
+  background-position: -27em -21em;
 }
 
 .ap-cold_sweat {
-  background-position: -540px -440px;
+  background-position: -27em -22em;
 }
 
 .ap-scream {
-  background-position: -540px -460px;
+  background-position: -27em -23em;
 }
 
 .ap-astonished {
-  background-position: -540px -480px;
+  background-position: -27em -24em;
 }
 
 .ap-flushed {
-  background-position: -540px -500px;
+  background-position: -27em -25em;
 }
 
 .ap-sleeping {
-  background-position: -540px -520px;
+  background-position: -27em -26em;
 }
 
 .ap-dizzy_face {
-  background-position: -540px -540px;
+  background-position: -27em -27em;
 }
 
 .ap-no_mouth {
-  background-position: -540px -560px;
+  background-position: -27em -28em;
 }
 
 .ap-mask {
-  background-position: -540px -580px;
+  background-position: -27em -29em;
 }
 
 .ap-smile_cat {
-  background-position: -540px -600px;
+  background-position: -27em -30em;
 }
 
 .ap-joy_cat {
-  background-position: -540px -620px;
+  background-position: -27em -31em;
 }
 
 .ap-smiley_cat {
-  background-position: -540px -640px;
+  background-position: -27em -32em;
 }
 
 .ap-heart_eyes_cat {
-  background-position: -540px -660px;
+  background-position: -27em -33em;
 }
 
 .ap-smirk_cat {
-  background-position: -540px -680px;
+  background-position: -27em -34em;
 }
 
 .ap-kissing_cat {
-  background-position: -540px -700px;
+  background-position: -27em -35em;
 }
 
 .ap-pouting_cat {
-  background-position: -540px -720px;
+  background-position: -27em -36em;
 }
 
 .ap-crying_cat_face {
-  background-position: -540px -740px;
+  background-position: -27em -37em;
 }
 
 .ap-scream_cat {
-  background-position: -540px -760px;
+  background-position: -27em -38em;
 }
 
 .ap-slightly_frowning_face {
-  background-position: -540px -780px;
+  background-position: -27em -39em;
 }
 
 .ap-slightly_smiling_face {
-  background-position: -540px -800px;
+  background-position: -27em -40em;
 }
 
 .ap-upside_down_face {
-  background-position: -560px -0px;
+  background-position: -28em 0em;
 }
 
 .ap-face_with_rolling_eyes {
-  background-position: -560px -20px;
+  background-position: -28em -1em;
 }
 
 .ap-no_good {
-  background-position: -560px -40px;
+  background-position: -28em -2em;
 }
 
 .ap-ok_woman {
-  background-position: -560px -160px;
+  background-position: -28em -8em;
 }
 
 .ap-bow {
-  background-position: -560px -280px;
+  background-position: -28em -14em;
 }
 
 .ap-see_no_evil {
-  background-position: -560px -400px;
+  background-position: -28em -20em;
 }
 
 .ap-hear_no_evil {
-  background-position: -560px -420px;
+  background-position: -28em -21em;
 }
 
 .ap-speak_no_evil {
-  background-position: -560px -440px;
+  background-position: -28em -22em;
 }
 
 .ap-raising_hand {
-  background-position: -560px -460px;
+  background-position: -28em -23em;
 }
 
 .ap-raised_hands {
-  background-position: -560px -580px;
+  background-position: -28em -29em;
 }
 
 .ap-person_frowning {
-  background-position: -560px -700px;
+  background-position: -28em -35em;
 }
 
 .ap-person_with_pouting_face {
-  background-position: -580px -0px;
+  background-position: -29em 0em;
 }
 
 .ap-pray {
-  background-position: -580px -120px;
+  background-position: -29em -6em;
 }
 
 .ap-rocket {
-  background-position: -580px -240px;
+  background-position: -29em -12em;
 }
 
 .ap-helicopter {
-  background-position: -580px -260px;
+  background-position: -29em -13em;
 }
 
 .ap-steam_locomotive {
-  background-position: -580px -280px;
+  background-position: -29em -14em;
 }
 
 .ap-railway_car {
-  background-position: -580px -300px;
+  background-position: -29em -15em;
 }
 
 .ap-bullettrain_side {
-  background-position: -580px -320px;
+  background-position: -29em -16em;
 }
 
 .ap-bullettrain_front {
-  background-position: -580px -340px;
+  background-position: -29em -17em;
 }
 
 .ap-train2 {
-  background-position: -580px -360px;
+  background-position: -29em -18em;
 }
 
 .ap-metro {
-  background-position: -580px -380px;
+  background-position: -29em -19em;
 }
 
 .ap-light_rail {
-  background-position: -580px -400px;
+  background-position: -29em -20em;
 }
 
 .ap-station {
-  background-position: -580px -420px;
+  background-position: -29em -21em;
 }
 
 .ap-tram {
-  background-position: -580px -440px;
+  background-position: -29em -22em;
 }
 
 .ap-train {
-  background-position: -580px -460px;
+  background-position: -29em -23em;
 }
 
 .ap-bus {
-  background-position: -580px -480px;
+  background-position: -29em -24em;
 }
 
 .ap-oncoming_bus {
-  background-position: -580px -500px;
+  background-position: -29em -25em;
 }
 
 .ap-trolleybus {
-  background-position: -580px -520px;
+  background-position: -29em -26em;
 }
 
 .ap-busstop {
-  background-position: -580px -540px;
+  background-position: -29em -27em;
 }
 
 .ap-minibus {
-  background-position: -580px -560px;
+  background-position: -29em -28em;
 }
 
 .ap-ambulance {
-  background-position: -580px -580px;
+  background-position: -29em -29em;
 }
 
 .ap-fire_engine {
-  background-position: -580px -600px;
+  background-position: -29em -30em;
 }
 
 .ap-police_car {
-  background-position: -580px -620px;
+  background-position: -29em -31em;
 }
 
 .ap-oncoming_police_car {
-  background-position: -580px -640px;
+  background-position: -29em -32em;
 }
 
 .ap-taxi {
-  background-position: -580px -660px;
+  background-position: -29em -33em;
 }
 
 .ap-oncoming_taxi {
-  background-position: -580px -680px;
+  background-position: -29em -34em;
 }
 
 .ap-car {
-  background-position: -580px -700px;
+  background-position: -29em -35em;
 }
 
 .ap-oncoming_automobile {
-  background-position: -580px -720px;
+  background-position: -29em -36em;
 }
 
 .ap-blue_car {
-  background-position: -580px -740px;
+  background-position: -29em -37em;
 }
 
 .ap-truck {
-  background-position: -580px -760px;
+  background-position: -29em -38em;
 }
 
 .ap-articulated_lorry {
-  background-position: -580px -780px;
+  background-position: -29em -39em;
 }
 
 .ap-tractor {
-  background-position: -580px -800px;
+  background-position: -29em -40em;
 }
 
 .ap-monorail {
-  background-position: -600px -0px;
+  background-position: -30em 0em;
 }
 
 .ap-mountain_railway {
-  background-position: -600px -20px;
+  background-position: -30em -1em;
 }
 
 .ap-suspension_railway {
-  background-position: -600px -40px;
+  background-position: -30em -2em;
 }
 
 .ap-mountain_cableway {
-  background-position: -600px -60px;
+  background-position: -30em -3em;
 }
 
 .ap-aerial_tramway {
-  background-position: -600px -80px;
+  background-position: -30em -4em;
 }
 
 .ap-ship {
-  background-position: -600px -100px;
+  background-position: -30em -5em;
 }
 
 .ap-rowboat {
-  background-position: -600px -120px;
+  background-position: -30em -6em;
 }
 
 .ap-speedboat {
-  background-position: -600px -240px;
+  background-position: -30em -12em;
 }
 
 .ap-traffic_light {
-  background-position: -600px -260px;
+  background-position: -30em -13em;
 }
 
 .ap-vertical_traffic_light {
-  background-position: -600px -280px;
+  background-position: -30em -14em;
 }
 
 .ap-construction {
-  background-position: -600px -300px;
+  background-position: -30em -15em;
 }
 
 .ap-rotating_light {
-  background-position: -600px -320px;
+  background-position: -30em -16em;
 }
 
 .ap-triangular_flag_on_post {
-  background-position: -600px -340px;
+  background-position: -30em -17em;
 }
 
 .ap-door {
-  background-position: -600px -360px;
+  background-position: -30em -18em;
 }
 
 .ap-no_entry_sign {
-  background-position: -600px -380px;
+  background-position: -30em -19em;
 }
 
 .ap-smoking {
-  background-position: -600px -400px;
+  background-position: -30em -20em;
 }
 
 .ap-no_smoking {
-  background-position: -600px -420px;
+  background-position: -30em -21em;
 }
 
 .ap-put_litter_in_its_place {
-  background-position: -600px -440px;
+  background-position: -30em -22em;
 }
 
 .ap-do_not_litter {
-  background-position: -600px -460px;
+  background-position: -30em -23em;
 }
 
 .ap-potable_water {
-  background-position: -600px -480px;
+  background-position: -30em -24em;
 }
 
 .ap-non-potable_water {
-  background-position: -600px -500px;
+  background-position: -30em -25em;
 }
 
 .ap-bike {
-  background-position: -600px -520px;
+  background-position: -30em -26em;
 }
 
 .ap-no_bicycles {
-  background-position: -600px -540px;
+  background-position: -30em -27em;
 }
 
 .ap-bicyclist {
-  background-position: -600px -560px;
+  background-position: -30em -28em;
 }
 
 .ap-mountain_bicyclist {
-  background-position: -600px -680px;
+  background-position: -30em -34em;
 }
 
 .ap-walking {
-  background-position: -600px -800px;
+  background-position: -30em -40em;
 }
 
 .ap-no_pedestrians {
-  background-position: -620px -100px;
+  background-position: -31em -5em;
 }
 
 .ap-children_crossing {
-  background-position: -620px -120px;
+  background-position: -31em -6em;
 }
 
 .ap-mens {
-  background-position: -620px -140px;
+  background-position: -31em -7em;
 }
 
 .ap-womens {
-  background-position: -620px -160px;
+  background-position: -31em -8em;
 }
 
 .ap-restroom {
-  background-position: -620px -180px;
+  background-position: -31em -9em;
 }
 
 .ap-baby_symbol {
-  background-position: -620px -200px;
+  background-position: -31em -10em;
 }
 
 .ap-toilet {
-  background-position: -620px -220px;
+  background-position: -31em -11em;
 }
 
 .ap-wc {
-  background-position: -620px -240px;
+  background-position: -31em -12em;
 }
 
 .ap-shower {
-  background-position: -620px -260px;
+  background-position: -31em -13em;
 }
 
 .ap-bath {
-  background-position: -620px -280px;
+  background-position: -31em -14em;
 }
 
 .ap-bathtub {
-  background-position: -620px -400px;
+  background-position: -31em -20em;
 }
 
 .ap-passport_control {
-  background-position: -620px -420px;
+  background-position: -31em -21em;
 }
 
 .ap-customs {
-  background-position: -620px -440px;
+  background-position: -31em -22em;
 }
 
 .ap-baggage_claim {
-  background-position: -620px -460px;
+  background-position: -31em -23em;
 }
 
 .ap-left_luggage {
-  background-position: -620px -480px;
+  background-position: -31em -24em;
 }
 
 .ap-couch_and_lamp {
-  background-position: -620px -500px;
+  background-position: -31em -25em;
 }
 
 .ap-sleeping_accommodation {
-  background-position: -620px -520px;
+  background-position: -31em -26em;
 }
 
 .ap-shopping_bags {
-  background-position: -620px -540px;
+  background-position: -31em -27em;
 }
 
 .ap-bellhop_bell {
-  background-position: -620px -560px;
+  background-position: -31em -28em;
 }
 
 .ap-bed {
-  background-position: -620px -580px;
+  background-position: -31em -29em;
 }
 
 .ap-place_of_worship {
-  background-position: -620px -600px;
+  background-position: -31em -30em;
 }
 
 .ap-hammer_and_wrench {
-  background-position: -620px -620px;
+  background-position: -31em -31em;
 }
 
 .ap-shield {
-  background-position: -620px -640px;
+  background-position: -31em -32em;
 }
 
 .ap-oil_drum {
-  background-position: -620px -660px;
+  background-position: -31em -33em;
 }
 
 .ap-motorway {
-  background-position: -620px -680px;
+  background-position: -31em -34em;
 }
 
 .ap-railway_track {
-  background-position: -620px -700px;
+  background-position: -31em -35em;
 }
 
 .ap-motor_boat {
-  background-position: -620px -720px;
+  background-position: -31em -36em;
 }
 
 .ap-small_airplane {
-  background-position: -620px -740px;
+  background-position: -31em -37em;
 }
 
 .ap-airplane_departure {
-  background-position: -620px -760px;
+  background-position: -31em -38em;
 }
 
 .ap-airplane_arriving {
-  background-position: -620px -780px;
+  background-position: -31em -39em;
 }
 
 .ap-satellite {
-  background-position: -620px -800px;
+  background-position: -31em -40em;
 }
 
 .ap-passenger_ship {
-  background-position: -640px -0px;
+  background-position: -32em 0em;
 }
 
 .ap-zipper_mouth_face {
-  background-position: -640px -20px;
+  background-position: -32em -1em;
 }
 
 .ap-money_mouth_face {
-  background-position: -640px -40px;
+  background-position: -32em -2em;
 }
 
 .ap-face_with_thermometer {
-  background-position: -640px -60px;
+  background-position: -32em -3em;
 }
 
 .ap-nerd_face {
-  background-position: -640px -80px;
+  background-position: -32em -4em;
 }
 
 .ap-thinking_face {
-  background-position: -640px -100px;
+  background-position: -32em -5em;
 }
 
 .ap-face_with_head_bandage {
-  background-position: -640px -120px;
+  background-position: -32em -6em;
 }
 
 .ap-robot_face {
-  background-position: -640px -140px;
+  background-position: -32em -7em;
 }
 
 .ap-hugging_face {
-  background-position: -640px -160px;
+  background-position: -32em -8em;
 }
 
 .ap-the_horns {
-  background-position: -640px -180px;
+  background-position: -32em -9em;
 }
 
 .ap-crab {
-  background-position: -640px -300px;
+  background-position: -32em -15em;
 }
 
 .ap-lion_face {
-  background-position: -640px -320px;
+  background-position: -32em -16em;
 }
 
 .ap-scorpion {
-  background-position: -640px -340px;
+  background-position: -32em -17em;
 }
 
 .ap-turkey {
-  background-position: -640px -360px;
+  background-position: -32em -18em;
 }
 
 .ap-unicorn_face {
-  background-position: -640px -380px;
+  background-position: -32em -19em;
 }
 
 .ap-cheese_wedge {
-  background-position: -640px -400px;
+  background-position: -32em -20em;
 }
 
 .ap-hash {
-  background-position: -640px -420px;
+  background-position: -32em -21em;
 }
 
 .ap-keycap_star {
-  background-position: -640px -440px;
+  background-position: -32em -22em;
 }
 
 .ap-zero {
-  background-position: -640px -460px;
+  background-position: -32em -23em;
 }
 
 .ap-one {
-  background-position: -640px -480px;
+  background-position: -32em -24em;
 }
 
 .ap-two {
-  background-position: -640px -500px;
+  background-position: -32em -25em;
 }
 
 .ap-three {
-  background-position: -640px -520px;
+  background-position: -32em -26em;
 }
 
 .ap-four {
-  background-position: -640px -540px;
+  background-position: -32em -27em;
 }
 
 .ap-five {
-  background-position: -640px -560px;
+  background-position: -32em -28em;
 }
 
 .ap-six {
-  background-position: -640px -580px;
+  background-position: -32em -29em;
 }
 
 .ap-seven {
-  background-position: -640px -600px;
+  background-position: -32em -30em;
 }
 
 .ap-eight {
-  background-position: -640px -620px;
+  background-position: -32em -31em;
 }
 
 .ap-nine {
-  background-position: -640px -640px;
+  background-position: -32em -32em;
 }
 
 .ap-flag-ac {
-  background-position: -640px -660px;
+  background-position: -32em -33em;
 }
 
 .ap-flag-ad {
-  background-position: -640px -680px;
+  background-position: -32em -34em;
 }
 
 .ap-flag-ae {
-  background-position: -640px -700px;
+  background-position: -32em -35em;
 }
 
 .ap-flag-af {
-  background-position: -640px -720px;
+  background-position: -32em -36em;
 }
 
 .ap-flag-ag {
-  background-position: -640px -740px;
+  background-position: -32em -37em;
 }
 
 .ap-flag-ai {
-  background-position: -640px -760px;
+  background-position: -32em -38em;
 }
 
 .ap-flag-al {
-  background-position: -640px -780px;
+  background-position: -32em -39em;
 }
 
 .ap-flag-am {
-  background-position: -640px -800px;
+  background-position: -32em -40em;
 }
 
 .ap-flag-ao {
-  background-position: -660px -0px;
+  background-position: -33em 0em;
 }
 
 .ap-flag-aq {
-  background-position: -660px -20px;
+  background-position: -33em -1em;
 }
 
 .ap-flag-ar {
-  background-position: -660px -40px;
+  background-position: -33em -2em;
 }
 
 .ap-flag-as {
-  background-position: -660px -60px;
+  background-position: -33em -3em;
 }
 
 .ap-flag-at {
-  background-position: -660px -80px;
+  background-position: -33em -4em;
 }
 
 .ap-flag-au {
-  background-position: -660px -100px;
+  background-position: -33em -5em;
 }
 
 .ap-flag-aw {
-  background-position: -660px -120px;
+  background-position: -33em -6em;
 }
 
 .ap-flag-ax {
-  background-position: -660px -140px;
+  background-position: -33em -7em;
 }
 
 .ap-flag-az {
-  background-position: -660px -160px;
+  background-position: -33em -8em;
 }
 
 .ap-flag-ba {
-  background-position: -660px -180px;
+  background-position: -33em -9em;
 }
 
 .ap-flag-bb {
-  background-position: -660px -200px;
+  background-position: -33em -10em;
 }
 
 .ap-flag-bd {
-  background-position: -660px -220px;
+  background-position: -33em -11em;
 }
 
 .ap-flag-be {
-  background-position: -660px -240px;
+  background-position: -33em -12em;
 }
 
 .ap-flag-bf {
-  background-position: -660px -260px;
+  background-position: -33em -13em;
 }
 
 .ap-flag-bg {
-  background-position: -660px -280px;
+  background-position: -33em -14em;
 }
 
 .ap-flag-bh {
-  background-position: -660px -300px;
+  background-position: -33em -15em;
 }
 
 .ap-flag-bi {
-  background-position: -660px -320px;
+  background-position: -33em -16em;
 }
 
 .ap-flag-bj {
-  background-position: -660px -340px;
+  background-position: -33em -17em;
 }
 
 .ap-flag-bl {
-  background-position: -660px -360px;
+  background-position: -33em -18em;
 }
 
 .ap-flag-bm {
-  background-position: -660px -380px;
+  background-position: -33em -19em;
 }
 
 .ap-flag-bn {
-  background-position: -660px -400px;
+  background-position: -33em -20em;
 }
 
 .ap-flag-bo {
-  background-position: -660px -420px;
+  background-position: -33em -21em;
 }
 
 .ap-flag-bq {
-  background-position: -660px -440px;
+  background-position: -33em -22em;
 }
 
 .ap-flag-br {
-  background-position: -660px -460px;
+  background-position: -33em -23em;
 }
 
 .ap-flag-bs {
-  background-position: -660px -480px;
+  background-position: -33em -24em;
 }
 
 .ap-flag-bt {
-  background-position: -660px -500px;
+  background-position: -33em -25em;
 }
 
 .ap-flag-bv {
-  background-position: -660px -520px;
+  background-position: -33em -26em;
 }
 
 .ap-flag-bw {
-  background-position: -660px -540px;
+  background-position: -33em -27em;
 }
 
 .ap-flag-by {
-  background-position: -660px -560px;
+  background-position: -33em -28em;
 }
 
 .ap-flag-bz {
-  background-position: -660px -580px;
+  background-position: -33em -29em;
 }
 
 .ap-flag-ca {
-  background-position: -660px -600px;
+  background-position: -33em -30em;
 }
 
 .ap-flag-cc {
-  background-position: -660px -620px;
+  background-position: -33em -31em;
 }
 
 .ap-flag-cd {
-  background-position: -660px -640px;
+  background-position: -33em -32em;
 }
 
 .ap-flag-cf {
-  background-position: -660px -660px;
+  background-position: -33em -33em;
 }
 
 .ap-flag-cg {
-  background-position: -660px -680px;
+  background-position: -33em -34em;
 }
 
 .ap-flag-ch {
-  background-position: -660px -700px;
+  background-position: -33em -35em;
 }
 
 .ap-flag-ci {
-  background-position: -660px -720px;
+  background-position: -33em -36em;
 }
 
 .ap-flag-ck {
-  background-position: -660px -740px;
+  background-position: -33em -37em;
 }
 
 .ap-flag-cl {
-  background-position: -660px -760px;
+  background-position: -33em -38em;
 }
 
 .ap-flag-cm {
-  background-position: -660px -780px;
+  background-position: -33em -39em;
 }
 
 .ap-flag-cn {
-  background-position: -660px -800px;
+  background-position: -33em -40em;
 }
 
 .ap-flag-co {
-  background-position: -680px -0px;
+  background-position: -34em 0em;
 }
 
 .ap-flag-cp {
-  background-position: -680px -20px;
+  background-position: -34em -1em;
 }
 
 .ap-flag-cr {
-  background-position: -680px -40px;
+  background-position: -34em -2em;
 }
 
 .ap-flag-cu {
-  background-position: -680px -60px;
+  background-position: -34em -3em;
 }
 
 .ap-flag-cv {
-  background-position: -680px -80px;
+  background-position: -34em -4em;
 }
 
 .ap-flag-cw {
-  background-position: -680px -100px;
+  background-position: -34em -5em;
 }
 
 .ap-flag-cx {
-  background-position: -680px -120px;
+  background-position: -34em -6em;
 }
 
 .ap-flag-cy {
-  background-position: -680px -140px;
+  background-position: -34em -7em;
 }
 
 .ap-flag-cz {
-  background-position: -680px -160px;
+  background-position: -34em -8em;
 }
 
 .ap-flag-de {
-  background-position: -680px -180px;
+  background-position: -34em -9em;
 }
 
 .ap-flag-dg {
-  background-position: -680px -200px;
+  background-position: -34em -10em;
 }
 
 .ap-flag-dj {
-  background-position: -680px -220px;
+  background-position: -34em -11em;
 }
 
 .ap-flag-dk {
-  background-position: -680px -240px;
+  background-position: -34em -12em;
 }
 
 .ap-flag-dm {
-  background-position: -680px -260px;
+  background-position: -34em -13em;
 }
 
 .ap-flag-do {
-  background-position: -680px -280px;
+  background-position: -34em -14em;
 }
 
 .ap-flag-dz {
-  background-position: -680px -300px;
+  background-position: -34em -15em;
 }
 
 .ap-flag-ea {
-  background-position: -680px -320px;
+  background-position: -34em -16em;
 }
 
 .ap-flag-ec {
-  background-position: -680px -340px;
+  background-position: -34em -17em;
 }
 
 .ap-flag-ee {
-  background-position: -680px -360px;
+  background-position: -34em -18em;
 }
 
 .ap-flag-eg {
-  background-position: -680px -380px;
+  background-position: -34em -19em;
 }
 
 .ap-flag-eh {
-  background-position: -680px -400px;
+  background-position: -34em -20em;
 }
 
 .ap-flag-er {
-  background-position: -680px -420px;
+  background-position: -34em -21em;
 }
 
 .ap-flag-es {
-  background-position: -680px -440px;
+  background-position: -34em -22em;
 }
 
 .ap-flag-et {
-  background-position: -680px -460px;
+  background-position: -34em -23em;
 }
 
 .ap-flag-eu {
-  background-position: -680px -480px;
+  background-position: -34em -24em;
 }
 
 .ap-flag-fi {
-  background-position: -680px -500px;
+  background-position: -34em -25em;
 }
 
 .ap-flag-fj {
-  background-position: -680px -520px;
+  background-position: -34em -26em;
 }
 
 .ap-flag-fk {
-  background-position: -680px -540px;
+  background-position: -34em -27em;
 }
 
 .ap-flag-fm {
-  background-position: -680px -560px;
+  background-position: -34em -28em;
 }
 
 .ap-flag-fo {
-  background-position: -680px -580px;
+  background-position: -34em -29em;
 }
 
 .ap-flag-fr {
-  background-position: -680px -600px;
+  background-position: -34em -30em;
 }
 
 .ap-flag-ga {
-  background-position: -680px -620px;
+  background-position: -34em -31em;
 }
 
 .ap-flag-gb {
-  background-position: -680px -640px;
+  background-position: -34em -32em;
 }
 
 .ap-flag-gd {
-  background-position: -680px -660px;
+  background-position: -34em -33em;
 }
 
 .ap-flag-ge {
-  background-position: -680px -680px;
+  background-position: -34em -34em;
 }
 
 .ap-flag-gf {
-  background-position: -680px -700px;
+  background-position: -34em -35em;
 }
 
 .ap-flag-gg {
-  background-position: -680px -720px;
+  background-position: -34em -36em;
 }
 
 .ap-flag-gh {
-  background-position: -680px -740px;
+  background-position: -34em -37em;
 }
 
 .ap-flag-gi {
-  background-position: -680px -760px;
+  background-position: -34em -38em;
 }
 
 .ap-flag-gl {
-  background-position: -680px -780px;
+  background-position: -34em -39em;
 }
 
 .ap-flag-gm {
-  background-position: -680px -800px;
+  background-position: -34em -40em;
 }
 
 .ap-flag-gn {
-  background-position: -700px -0px;
+  background-position: -35em 0em;
 }
 
 .ap-flag-gp {
-  background-position: -700px -20px;
+  background-position: -35em -1em;
 }
 
 .ap-flag-gq {
-  background-position: -700px -40px;
+  background-position: -35em -2em;
 }
 
 .ap-flag-gr {
-  background-position: -700px -60px;
+  background-position: -35em -3em;
 }
 
 .ap-flag-gs {
-  background-position: -700px -80px;
+  background-position: -35em -4em;
 }
 
 .ap-flag-gt {
-  background-position: -700px -100px;
+  background-position: -35em -5em;
 }
 
 .ap-flag-gu {
-  background-position: -700px -120px;
+  background-position: -35em -6em;
 }
 
 .ap-flag-gw {
-  background-position: -700px -140px;
+  background-position: -35em -7em;
 }
 
 .ap-flag-gy {
-  background-position: -700px -160px;
+  background-position: -35em -8em;
 }
 
 .ap-flag-hk {
-  background-position: -700px -180px;
+  background-position: -35em -9em;
 }
 
 .ap-flag-hm {
-  background-position: -700px -200px;
+  background-position: -35em -10em;
 }
 
 .ap-flag-hn {
-  background-position: -700px -220px;
+  background-position: -35em -11em;
 }
 
 .ap-flag-hr {
-  background-position: -700px -240px;
+  background-position: -35em -12em;
 }
 
 .ap-flag-ht {
-  background-position: -700px -260px;
+  background-position: -35em -13em;
 }
 
 .ap-flag-hu {
-  background-position: -700px -280px;
+  background-position: -35em -14em;
 }
 
 .ap-flag-ic {
-  background-position: -700px -300px;
+  background-position: -35em -15em;
 }
 
 .ap-flag-id {
-  background-position: -700px -320px;
+  background-position: -35em -16em;
 }
 
 .ap-flag-ie {
-  background-position: -700px -340px;
+  background-position: -35em -17em;
 }
 
 .ap-flag-il {
-  background-position: -700px -360px;
+  background-position: -35em -18em;
 }
 
 .ap-flag-im {
-  background-position: -700px -380px;
+  background-position: -35em -19em;
 }
 
 .ap-flag-in {
-  background-position: -700px -400px;
+  background-position: -35em -20em;
 }
 
 .ap-flag-io {
-  background-position: -700px -420px;
+  background-position: -35em -21em;
 }
 
 .ap-flag-iq {
-  background-position: -700px -440px;
+  background-position: -35em -22em;
 }
 
 .ap-flag-ir {
-  background-position: -700px -460px;
+  background-position: -35em -23em;
 }
 
 .ap-flag-is {
-  background-position: -700px -480px;
+  background-position: -35em -24em;
 }
 
 .ap-flag-it {
-  background-position: -700px -500px;
+  background-position: -35em -25em;
 }
 
 .ap-flag-je {
-  background-position: -700px -520px;
+  background-position: -35em -26em;
 }
 
 .ap-flag-jm {
-  background-position: -700px -540px;
+  background-position: -35em -27em;
 }
 
 .ap-flag-jo {
-  background-position: -700px -560px;
+  background-position: -35em -28em;
 }
 
 .ap-flag-jp {
-  background-position: -700px -580px;
+  background-position: -35em -29em;
 }
 
 .ap-flag-ke {
-  background-position: -700px -600px;
+  background-position: -35em -30em;
 }
 
 .ap-flag-kg {
-  background-position: -700px -620px;
+  background-position: -35em -31em;
 }
 
 .ap-flag-kh {
-  background-position: -700px -640px;
+  background-position: -35em -32em;
 }
 
 .ap-flag-ki {
-  background-position: -700px -660px;
+  background-position: -35em -33em;
 }
 
 .ap-flag-km {
-  background-position: -700px -680px;
+  background-position: -35em -34em;
 }
 
 .ap-flag-kn {
-  background-position: -700px -700px;
+  background-position: -35em -35em;
 }
 
 .ap-flag-kp {
-  background-position: -700px -720px;
+  background-position: -35em -36em;
 }
 
 .ap-flag-kr {
-  background-position: -700px -740px;
+  background-position: -35em -37em;
 }
 
 .ap-flag-kw {
-  background-position: -700px -760px;
+  background-position: -35em -38em;
 }
 
 .ap-flag-ky {
-  background-position: -700px -780px;
+  background-position: -35em -39em;
 }
 
 .ap-flag-kz {
-  background-position: -700px -800px;
+  background-position: -35em -40em;
 }
 
 .ap-flag-la {
-  background-position: -720px -0px;
+  background-position: -36em 0em;
 }
 
 .ap-flag-lb {
-  background-position: -720px -20px;
+  background-position: -36em -1em;
 }
 
 .ap-flag-lc {
-  background-position: -720px -40px;
+  background-position: -36em -2em;
 }
 
 .ap-flag-li {
-  background-position: -720px -60px;
+  background-position: -36em -3em;
 }
 
 .ap-flag-lk {
-  background-position: -720px -80px;
+  background-position: -36em -4em;
 }
 
 .ap-flag-lr {
-  background-position: -720px -100px;
+  background-position: -36em -5em;
 }
 
 .ap-flag-ls {
-  background-position: -720px -120px;
+  background-position: -36em -6em;
 }
 
 .ap-flag-lt {
-  background-position: -720px -140px;
+  background-position: -36em -7em;
 }
 
 .ap-flag-lu {
-  background-position: -720px -160px;
+  background-position: -36em -8em;
 }
 
 .ap-flag-lv {
-  background-position: -720px -180px;
+  background-position: -36em -9em;
 }
 
 .ap-flag-ly {
-  background-position: -720px -200px;
+  background-position: -36em -10em;
 }
 
 .ap-flag-ma {
-  background-position: -720px -220px;
+  background-position: -36em -11em;
 }
 
 .ap-flag-mc {
-  background-position: -720px -240px;
+  background-position: -36em -12em;
 }
 
 .ap-flag-md {
-  background-position: -720px -260px;
+  background-position: -36em -13em;
 }
 
 .ap-flag-me {
-  background-position: -720px -280px;
+  background-position: -36em -14em;
 }
 
 .ap-flag-mf {
-  background-position: -720px -300px;
+  background-position: -36em -15em;
 }
 
 .ap-flag-mg {
-  background-position: -720px -320px;
+  background-position: -36em -16em;
 }
 
 .ap-flag-mh {
-  background-position: -720px -340px;
+  background-position: -36em -17em;
 }
 
 .ap-flag-mk {
-  background-position: -720px -360px;
+  background-position: -36em -18em;
 }
 
 .ap-flag-ml {
-  background-position: -720px -380px;
+  background-position: -36em -19em;
 }
 
 .ap-flag-mm {
-  background-position: -720px -400px;
+  background-position: -36em -20em;
 }
 
 .ap-flag-mn {
-  background-position: -720px -420px;
+  background-position: -36em -21em;
 }
 
 .ap-flag-mo {
-  background-position: -720px -440px;
+  background-position: -36em -22em;
 }
 
 .ap-flag-mp {
-  background-position: -720px -460px;
+  background-position: -36em -23em;
 }
 
 .ap-flag-mq {
-  background-position: -720px -480px;
+  background-position: -36em -24em;
 }
 
 .ap-flag-mr {
-  background-position: -720px -500px;
+  background-position: -36em -25em;
 }
 
 .ap-flag-ms {
-  background-position: -720px -520px;
+  background-position: -36em -26em;
 }
 
 .ap-flag-mt {
-  background-position: -720px -540px;
+  background-position: -36em -27em;
 }
 
 .ap-flag-mu {
-  background-position: -720px -560px;
+  background-position: -36em -28em;
 }
 
 .ap-flag-mv {
-  background-position: -720px -580px;
+  background-position: -36em -29em;
 }
 
 .ap-flag-mw {
-  background-position: -720px -600px;
+  background-position: -36em -30em;
 }
 
 .ap-flag-mx {
-  background-position: -720px -620px;
+  background-position: -36em -31em;
 }
 
 .ap-flag-my {
-  background-position: -720px -640px;
+  background-position: -36em -32em;
 }
 
 .ap-flag-mz {
-  background-position: -720px -660px;
+  background-position: -36em -33em;
 }
 
 .ap-flag-na {
-  background-position: -720px -680px;
+  background-position: -36em -34em;
 }
 
 .ap-flag-nc {
-  background-position: -720px -700px;
+  background-position: -36em -35em;
 }
 
 .ap-flag-ne {
-  background-position: -720px -720px;
+  background-position: -36em -36em;
 }
 
 .ap-flag-nf {
-  background-position: -720px -740px;
+  background-position: -36em -37em;
 }
 
 .ap-flag-ng {
-  background-position: -720px -760px;
+  background-position: -36em -38em;
 }
 
 .ap-flag-ni {
-  background-position: -720px -780px;
+  background-position: -36em -39em;
 }
 
 .ap-flag-nl {
-  background-position: -720px -800px;
+  background-position: -36em -40em;
 }
 
 .ap-flag-no {
-  background-position: -740px -0px;
+  background-position: -37em 0em;
 }
 
 .ap-flag-np {
-  background-position: -740px -20px;
+  background-position: -37em -1em;
 }
 
 .ap-flag-nr {
-  background-position: -740px -40px;
+  background-position: -37em -2em;
 }
 
 .ap-flag-nu {
-  background-position: -740px -60px;
+  background-position: -37em -3em;
 }
 
 .ap-flag-nz {
-  background-position: -740px -80px;
+  background-position: -37em -4em;
 }
 
 .ap-flag-om {
-  background-position: -740px -100px;
+  background-position: -37em -5em;
 }
 
 .ap-flag-pa {
-  background-position: -740px -120px;
+  background-position: -37em -6em;
 }
 
 .ap-flag-pe {
-  background-position: -740px -140px;
+  background-position: -37em -7em;
 }
 
 .ap-flag-pf {
-  background-position: -740px -160px;
+  background-position: -37em -8em;
 }
 
 .ap-flag-pg {
-  background-position: -740px -180px;
+  background-position: -37em -9em;
 }
 
 .ap-flag-ph {
-  background-position: -740px -200px;
+  background-position: -37em -10em;
 }
 
 .ap-flag-pk {
-  background-position: -740px -220px;
+  background-position: -37em -11em;
 }
 
 .ap-flag-pl {
-  background-position: -740px -240px;
+  background-position: -37em -12em;
 }
 
 .ap-flag-pm {
-  background-position: -740px -260px;
+  background-position: -37em -13em;
 }
 
 .ap-flag-pn {
-  background-position: -740px -280px;
+  background-position: -37em -14em;
 }
 
 .ap-flag-pr {
-  background-position: -740px -300px;
+  background-position: -37em -15em;
 }
 
 .ap-flag-ps {
-  background-position: -740px -320px;
+  background-position: -37em -16em;
 }
 
 .ap-flag-pt {
-  background-position: -740px -340px;
+  background-position: -37em -17em;
 }
 
 .ap-flag-pw {
-  background-position: -740px -360px;
+  background-position: -37em -18em;
 }
 
 .ap-flag-py {
-  background-position: -740px -380px;
+  background-position: -37em -19em;
 }
 
 .ap-flag-qa {
-  background-position: -740px -400px;
+  background-position: -37em -20em;
 }
 
 .ap-flag-re {
-  background-position: -740px -420px;
+  background-position: -37em -21em;
 }
 
 .ap-flag-ro {
-  background-position: -740px -440px;
+  background-position: -37em -22em;
 }
 
 .ap-flag-rs {
-  background-position: -740px -460px;
+  background-position: -37em -23em;
 }
 
 .ap-flag-ru {
-  background-position: -740px -480px;
+  background-position: -37em -24em;
 }
 
 .ap-flag-rw {
-  background-position: -740px -500px;
+  background-position: -37em -25em;
 }
 
 .ap-flag-sa {
-  background-position: -740px -520px;
+  background-position: -37em -26em;
 }
 
 .ap-flag-sb {
-  background-position: -740px -540px;
+  background-position: -37em -27em;
 }
 
 .ap-flag-sc {
-  background-position: -740px -560px;
+  background-position: -37em -28em;
 }
 
 .ap-flag-sd {
-  background-position: -740px -580px;
+  background-position: -37em -29em;
 }
 
 .ap-flag-se {
-  background-position: -740px -600px;
+  background-position: -37em -30em;
 }
 
 .ap-flag-sg {
-  background-position: -740px -620px;
+  background-position: -37em -31em;
 }
 
 .ap-flag-sh {
-  background-position: -740px -640px;
+  background-position: -37em -32em;
 }
 
 .ap-flag-si {
-  background-position: -740px -660px;
+  background-position: -37em -33em;
 }
 
 .ap-flag-sj {
-  background-position: -740px -680px;
+  background-position: -37em -34em;
 }
 
 .ap-flag-sk {
-  background-position: -740px -700px;
+  background-position: -37em -35em;
 }
 
 .ap-flag-sl {
-  background-position: -740px -720px;
+  background-position: -37em -36em;
 }
 
 .ap-flag-sm {
-  background-position: -740px -740px;
+  background-position: -37em -37em;
 }
 
 .ap-flag-sn {
-  background-position: -740px -760px;
+  background-position: -37em -38em;
 }
 
 .ap-flag-so {
-  background-position: -740px -780px;
+  background-position: -37em -39em;
 }
 
 .ap-flag-sr {
-  background-position: -740px -800px;
+  background-position: -37em -40em;
 }
 
 .ap-flag-ss {
-  background-position: -760px -0px;
+  background-position: -38em 0em;
 }
 
 .ap-flag-st {
-  background-position: -760px -20px;
+  background-position: -38em -1em;
 }
 
 .ap-flag-sv {
-  background-position: -760px -40px;
+  background-position: -38em -2em;
 }
 
 .ap-flag-sx {
-  background-position: -760px -60px;
+  background-position: -38em -3em;
 }
 
 .ap-flag-sy {
-  background-position: -760px -80px;
+  background-position: -38em -4em;
 }
 
 .ap-flag-sz {
-  background-position: -760px -100px;
+  background-position: -38em -5em;
 }
 
 .ap-flag-ta {
-  background-position: -760px -120px;
+  background-position: -38em -6em;
 }
 
 .ap-flag-tc {
-  background-position: -760px -140px;
+  background-position: -38em -7em;
 }
 
 .ap-flag-td {
-  background-position: -760px -160px;
+  background-position: -38em -8em;
 }
 
 .ap-flag-tf {
-  background-position: -760px -180px;
+  background-position: -38em -9em;
 }
 
 .ap-flag-tg {
-  background-position: -760px -200px;
+  background-position: -38em -10em;
 }
 
 .ap-flag-th {
-  background-position: -760px -220px;
+  background-position: -38em -11em;
 }
 
 .ap-flag-tj {
-  background-position: -760px -240px;
+  background-position: -38em -12em;
 }
 
 .ap-flag-tk {
-  background-position: -760px -260px;
+  background-position: -38em -13em;
 }
 
 .ap-flag-tl {
-  background-position: -760px -280px;
+  background-position: -38em -14em;
 }
 
 .ap-flag-tm {
-  background-position: -760px -300px;
+  background-position: -38em -15em;
 }
 
 .ap-flag-tn {
-  background-position: -760px -320px;
+  background-position: -38em -16em;
 }
 
 .ap-flag-to {
-  background-position: -760px -340px;
+  background-position: -38em -17em;
 }
 
 .ap-flag-tr {
-  background-position: -760px -360px;
+  background-position: -38em -18em;
 }
 
 .ap-flag-tt {
-  background-position: -760px -380px;
+  background-position: -38em -19em;
 }
 
 .ap-flag-tv {
-  background-position: -760px -400px;
+  background-position: -38em -20em;
 }
 
 .ap-flag-tw {
-  background-position: -760px -420px;
+  background-position: -38em -21em;
 }
 
 .ap-flag-tz {
-  background-position: -760px -440px;
+  background-position: -38em -22em;
 }
 
 .ap-flag-ua {
-  background-position: -760px -460px;
+  background-position: -38em -23em;
 }
 
 .ap-flag-ug {
-  background-position: -760px -480px;
+  background-position: -38em -24em;
 }
 
 .ap-flag-um {
-  background-position: -760px -500px;
+  background-position: -38em -25em;
 }
 
 .ap-flag-us {
-  background-position: -760px -520px;
+  background-position: -38em -26em;
 }
 
 .ap-flag-uy {
-  background-position: -760px -540px;
+  background-position: -38em -27em;
 }
 
 .ap-flag-uz {
-  background-position: -760px -560px;
+  background-position: -38em -28em;
 }
 
 .ap-flag-va {
-  background-position: -760px -580px;
+  background-position: -38em -29em;
 }
 
 .ap-flag-vc {
-  background-position: -760px -600px;
+  background-position: -38em -30em;
 }
 
 .ap-flag-ve {
-  background-position: -760px -620px;
+  background-position: -38em -31em;
 }
 
 .ap-flag-vg {
-  background-position: -760px -640px;
+  background-position: -38em -32em;
 }
 
 .ap-flag-vi {
-  background-position: -760px -660px;
+  background-position: -38em -33em;
 }
 
 .ap-flag-vn {
-  background-position: -760px -680px;
+  background-position: -38em -34em;
 }
 
 .ap-flag-vu {
-  background-position: -760px -700px;
+  background-position: -38em -35em;
 }
 
 .ap-flag-wf {
-  background-position: -760px -720px;
+  background-position: -38em -36em;
 }
 
 .ap-flag-ws {
-  background-position: -760px -740px;
+  background-position: -38em -37em;
 }
 
 .ap-flag-xk {
-  background-position: -760px -760px;
+  background-position: -38em -38em;
 }
 
 .ap-flag-ye {
-  background-position: -760px -780px;
+  background-position: -38em -39em;
 }
 
 .ap-flag-yt {
-  background-position: -760px -800px;
+  background-position: -38em -40em;
 }
 
 .ap-flag-za {
-  background-position: -780px -0px;
+  background-position: -39em 0em;
 }
 
 .ap-flag-zm {
-  background-position: -780px -20px;
+  background-position: -39em -1em;
 }
 
 .ap-flag-zw {
-  background-position: -780px -40px;
+  background-position: -39em -2em;
 }
 
 .ap-man-man-boy {
-  background-position: -780px -60px;
+  background-position: -39em -3em;
 }
 
 .ap-man-man-boy-boy {
-  background-position: -780px -80px;
+  background-position: -39em -4em;
 }
 
 .ap-man-man-girl {
-  background-position: -780px -100px;
+  background-position: -39em -5em;
 }
 
 .ap-man-man-girl-boy {
-  background-position: -780px -120px;
+  background-position: -39em -6em;
 }
 
 .ap-man-man-girl-girl {
-  background-position: -780px -140px;
+  background-position: -39em -7em;
 }
 
 .ap-man-woman-boy-boy {
-  background-position: -780px -160px;
+  background-position: -39em -8em;
 }
 
 .ap-man-woman-girl {
-  background-position: -780px -180px;
+  background-position: -39em -9em;
 }
 
 .ap-man-woman-girl-boy {
-  background-position: -780px -200px;
+  background-position: -39em -10em;
 }
 
 .ap-man-woman-girl-girl {
-  background-position: -780px -220px;
+  background-position: -39em -11em;
 }
 
 .ap-man-heart-man {
-  background-position: -780px -240px;
+  background-position: -39em -12em;
 }
 
 .ap-man-kiss-man {
-  background-position: -780px -260px;
+  background-position: -39em -13em;
 }
 
 .ap-woman-woman-boy {
-  background-position: -780px -280px;
+  background-position: -39em -14em;
 }
 
 .ap-woman-woman-boy-boy {
-  background-position: -780px -300px;
+  background-position: -39em -15em;
 }
 
 .ap-woman-woman-girl {
-  background-position: -780px -320px;
+  background-position: -39em -16em;
 }
 
 .ap-woman-woman-girl-boy {
-  background-position: -780px -340px;
+  background-position: -39em -17em;
 }
 
 .ap-woman-woman-girl-girl {
-  background-position: -780px -360px;
+  background-position: -39em -18em;
 }
 
 .ap-woman-heart-woman {
-  background-position: -780px -380px;
+  background-position: -39em -19em;
 }
 
 .ap-woman-kiss-woman {
-  background-position: -780px -400px;
+  background-position: -39em -20em;
 }
